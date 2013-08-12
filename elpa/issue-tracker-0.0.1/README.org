@@ -1,0 +1,34 @@
+* issue-tracker (current version 0.0.1)
+Create an issue id from current issue id. Current issue id could be any text under cursor in the Emacs buffer.
+
+For example, if current issue id is "myproject-9", the new issue id "myproject-10" will be created.
+
+The new issue id will pushed into the kill-ring and OS clipboard.
+
+That's the minimum feature I will implement.
+
+* Install
+issue-tracker is already uploaded to [[http://marmalade-repo.org/]]. So the best way to install it is using Emacs' package manager.
+
+* Set up
+You need install `xsel` under Linux if you want to copy issue id into system clipboard automatically.
+
+There is only command `issue-tracker-increment-issue-id-under-cursor`. You could assign hot key for it:
+#+BEGIN_SRC elisp
+(global-set-key (kbd "C-c C-t") 'issue-tracker-increment-issue-id-under-cursor)
+#+END_SRC
+
+Now you can use hot key "C-c C-t" to create issue id. Make sure there is some text under cursor when you create new issue id.
+
+* Contact me
+You can report bugs at [[https://github.com/redguardtoo/issue-tracker.el. My email is <chenbin DOT sh AT gmail>.
+* License
+Copyright (C) 2012 Chen Bin
+
+Author: Chen Bin <chenbin DOT sh AT gmail DOT com> Keywords: flymake IntelliSense cmake
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [[http://www.gnu.org/licenses/]].
