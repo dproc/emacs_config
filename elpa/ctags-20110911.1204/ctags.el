@@ -60,7 +60,6 @@
 (defun ctags ()
   (call-process-shell-command ctags-command nil "*Ctags*"))
 
-
 (defun ctags-find-tags-file ()
   "Recursively searches each parent directory for a file named
 TAGS and returns the path to that file or nil if a tags file is
