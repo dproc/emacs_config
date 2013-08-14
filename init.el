@@ -151,7 +151,7 @@
 (require 'init-smartparens)
 ;; Choose either auto-complete or company-mode by commenting one of below two lines!
 ;; (require 'init-auto-complete) ; after init-yasnippeta to override TAB
-(require 'init-company)
+;;;;(require 'init-company)
 (require 'init-stripe-buffer)
 (require 'init-popwin)
 (require 'init-elnode)
