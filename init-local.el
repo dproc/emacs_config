@@ -138,4 +138,20 @@
  '(tabbar-mode-settings))
 ;;;;;;;;;;;;;;;tabbar end;;;;;;;;;;;;;;;;;;;
 
+
+;;;;;;;;;;;;;;;mark;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun unpop-to-mark-command ()
+  "Unpop off mark ring. Does nothing if mark ring is empty."
+  (interactive)
+      (when mark-ring
+        (setq mark-ring (cons (copy-marker (mark-marker)) mark-ring))
+        (set-marker (mark-marker) (car (last mark-ring)) (current-buffer))
+        (when (null (mark t)) (ding))
+        (setq mark-ring (nbutlast mark-ring))
+        (goto-char (marker-position (car (last mark-ring))))))
+;;;;;;;;;;;;;;;mark end;;;;;;;;;;;;;;;;;;;;;
 (provide 'init-local)
+
+;;;;;;;;;;;;;;;key binding;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "M-v") 'scroll-down-command)
+;;;;;;;;;;;;;;;key binding end;;;;;;;;;;;;;;
