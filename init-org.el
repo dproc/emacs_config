@@ -20,7 +20,7 @@
 ;; Various preferences
 (setq org-log-done t
       org-completion-use-ido t
-      org-edit-src-content-indentation 0
+;;      org-edit-src-content-indentation 0
       org-edit-timestamp-down-means-later t
       org-agenda-start-on-weekday nil
       org-agenda-span 14
@@ -125,19 +125,19 @@
         (setq word-wrap t)
         )
       (add-hook 'org-mode-hook '(lambda ()
-                                  (setq evil-auto-indent nil)
+;;                                  (setq evil-auto-indent nil)
                                   (soft-wrap-lines)
                                   ))))
 
-(defadvice org-open-at-point (around org-open-at-point-choose-browser activate)
-  (let ((browse-url-browser-function
-         (cond ((equal (ad-get-arg 0) '(4))
-                'browse-url-generic)
-               ((equal (ad-get-arg 0) '(16))
-                'choose-browser)
-               (t
-                (lambda (url &optional new)
-                  (w3m-browse-url url t))))))
-    ad-do-it))
+;; (defadvice org-open-at-point (around org-open-at-point-choose-browser activate)
+;;   (let ((browse-url-browser-function
+;;          (cond ((equal (ad-get-arg 0) '(4))
+;;                 'browse-url-generic)
+;;                ((equal (ad-get-arg 0) '(16))
+;;                 'choose-browser)
+;;                (t
+;;                 (lambda (url &optional new)
+;;                   (w3m-browse-url url t))))))
+;;     ad-do-it))
 
 (provide 'init-org)

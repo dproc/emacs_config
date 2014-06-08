@@ -152,6 +152,21 @@
 ;;;;;;;;;;;;;;;mark end;;;;;;;;;;;;;;;;;;;;;
 (provide 'init-local)
 
+;;;;;;;;;;;;;;;org-mode setting;;;;;;;;;;;;;
+;;open html link with macosx default browser which is firefox on mine. otherwise it will be w3m. this variable change behavior for open html in all mode not only in org-mode
+;;linux emacs better to set org-file-apps to narrow the scope check C-h v
+(setq browse-url-browser-function 'browse-url-default-macosx-browser)
+
+;;open pdf at specific page with MAC preview on MAC
+;;linux emacs use evince instead check C-h v
+(add-hook 'org-mode-hook
+          '(lambda ()
+             (setq org-file-apps
+                   (append '(
+                             ("\\.pdf::\\([0-9]+\\)\\'" . "/Users/dapliu/.emacs.d/site-lisp/geared/open_pdf_at_page_with_Mac_preview.sh %s %1")
+                             ) org-file-apps ))))
+;;;;;;;;;;;;;;;org-mode setting end;;;;;;;;;
+
 ;;;;;;;;;;;;;;;key binding;;;;;;;;;;;;;;;;;;
 (global-set-key (kbd "M-v") 'scroll-down-command)
 ;;;;;;;;;;;;;;;key binding end;;;;;;;;;;;;;;
