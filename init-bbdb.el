@@ -1,6 +1,6 @@
 (add-hook 'message-mode-hook
           '(lambda ()
-             (flyspell-mode t)
+;;             (flyspell-mode t)
              (bbdb-initialize 'message)
              (bbdb-initialize 'gnus)
              (local-set-key "<TAB>" 'bbdb-complete-name)))

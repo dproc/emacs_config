@@ -10,7 +10,7 @@
 
     ;; line and column
     "(" ;; '%02' to set to 2 chars at least; prevents flickering
-    "%02l" "," "%01c"
+    "%p" " "  "%02l" "," "%01c"
       ;; (propertize "%02l" 'face 'font-lock-type-face) ","
       ;; (propertize "%02c" 'face 'font-lock-type-face)
     ") "
@@ -52,4 +52,5 @@
     ))
 
 (provide 'init-modeline)
+
 

@@ -4,14 +4,14 @@
 ;; Some basic preferences
 ;;----------------------------------------------------------------------------
 (setq-default
- blink-cursor-delay 0
- blink-cursor-interval 0.4
+;; blink-cursor-delay 0
+;; blink-cursor-interval 0.4
  bookmark-default-file "~/.emacs.d/.bookmarks.el"
  buffers-menu-max-size 30
  case-fold-search t
  compilation-scroll-output t
- ediff-split-window-function 'split-window-horizontally
- ediff-window-setup-function 'ediff-setup-windows-plain
+;; ediff-split-window-function 'split-window-horizontally
+;; ediff-window-setup-function 'ediff-setup-windows-plain
  grep-highlight-matches t
  grep-scroll-output t
  indent-tabs-mode nil
@@ -66,8 +66,8 @@
 ;; To be able to M-x without meta
 (global-set-key (kbd "C-x C-m") 'execute-extended-command)
 
-(global-set-key (kbd "C-.") 'set-mark-command)
-(global-set-key (kbd "C-x C-.") 'pop-global-mark)
+;;(global-set-key (kbd "C-.") 'set-mark-command)
+;;(global-set-key (kbd "C-x C-.") 'pop-global-mark)
 
 ;;----------------------------------------------------------------------------
 ;; Page break lines
@@ -82,42 +82,42 @@
 ;;----------------------------------------------------------------------------
 ;; Cut/copy the current line if no region is active
 ;;----------------------------------------------------------------------------
-(whole-line-or-region-mode t)
-(diminish 'whole-line-or-region-mode)
-(make-variable-buffer-local 'whole-line-or-region-mode)
+;;(whole-line-or-region-mode t)
+;;(diminish 'whole-line-or-region-mode)
+;;(make-variable-buffer-local 'whole-line-or-region-mode)
 
-(defun suspend-mode-during-cua-rect-selection (mode-name)
-  "Add an advice to suspend `MODE-NAME' while selecting a CUA rectangle."
-  (let ((flagvar (intern (format "%s-was-active-before-cua-rectangle" mode-name)))
-        (advice-name (intern (format "suspend-%s" mode-name))))
-    (eval-after-load 'cua-rect
-      `(progn
-         (defvar ,flagvar nil)
-         (make-variable-buffer-local ',flagvar)
-         (defadvice cua--activate-rectangle (after ,advice-name activate)
-           (setq ,flagvar (and (boundp ',mode-name) ,mode-name))
-           (when ,flagvar
-             (,mode-name 0)))
-         (defadvice cua--deactivate-rectangle (after ,advice-name activate)
-           (when ,flagvar
-             (,mode-name 1)))))))
+;; (defun suspend-mode-during-cua-rect-selection (mode-name)
+;;   "Add an advice to suspend `MODE-NAME' while selecting a CUA rectangle."
+;;   (let ((flagvar (intern (format "%s-was-active-before-cua-rectangle" mode-name)))
+;;         (advice-name (intern (format "suspend-%s" mode-name))))
+;;     (eval-after-load 'cua-rect
+;;       `(progn
+;;          (defvar ,flagvar nil)
+;;          (make-variable-buffer-local ',flagvar)
+;;          (defadvice cua--activate-rectangle (after ,advice-name activate)
+;;            (setq ,flagvar (and (boundp ',mode-name) ,mode-name))
+;;            (when ,flagvar
+;;              (,mode-name 0)))
+;;          (defadvice cua--deactivate-rectangle (after ,advice-name activate)
+;;            (when ,flagvar
+;;              (,mode-name 1)))))))
 
-(suspend-mode-during-cua-rect-selection 'whole-line-or-region-mode)
+;; (suspend-mode-during-cua-rect-selection 'whole-line-or-region-mode)
 
 ;;----------------------------------------------------------------------------
 ;; Random line sorting
 ;;----------------------------------------------------------------------------
-(defun sort-lines-random (beg end)
-  "Sort lines in region randomly."
-  (interactive "r")
-  (save-excursion
-    (save-restriction
-      (narrow-to-region beg end)
-      (goto-char (point-min))
-      (let ;; To make `end-of-line' and etc. to ignore fields.
-          ((inhibit-field-text-motion t))
-        (sort-subr nil 'forward-line 'end-of-line nil nil
-                   (lambda (s1 s2) (eq (random 2) 0)))))))
+;; (defun sort-lines-random (beg end)
+;;   "Sort lines in region randomly."
+;;   (interactive "r")
+;;   (save-excursion
+;;     (save-restriction
+;;       (narrow-to-region beg end)
+;;       (goto-char (point-min))
+;;       (let ;; To make `end-of-line' and etc. to ignore fields.
+;;           ((inhibit-field-text-motion t))
+;;         (sort-subr nil 'forward-line 'end-of-line nil nil
+;;                    (lambda (s1 s2) (eq (random 2) 0)))))))
 
 ;need install browse-kill-ring
 (browse-kill-ring-default-keybindings)
@@ -129,9 +129,9 @@
 ;; mode (org-mode for example), this will make the exported document
 ;; ugly!
 ;; (add-hook 'markdown-mode-hook 'turn-on-auto-fill)
-(add-hook 'change-log-mode-hook 'turn-on-auto-fill)
+;;(add-hook 'change-log-mode-hook 'turn-on-auto-fill)
 (add-hook 'cc-mode-hook 'turn-on-auto-fill)
-(global-set-key (kbd "C-c q") 'auto-fill-mode)
+;;(global-set-key (kbd "C-c q") 'auto-fill-mode)
 
 ;; {{ whitespace
 ;; (require 'whitespace)
