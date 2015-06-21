@@ -1,11 +1,10 @@
 ;;; wxwidgets-help-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (wxhelp-browse-class-or-api wxhelp-browse-api wxhelp-class-index
-;;;;;;  wxhelp-api-index) "wxwidgets-help" "wxwidgets-help.el" (21000
-;;;;;;  30703 0 0))
+;;;### (autoloads nil "wxwidgets-help" "wxwidgets-help.el" (21703
+;;;;;;  20802 0 0))
 ;;; Generated autoloads from wxwidgets-help.el
 
 (autoload 'wxhelp-api-index "wxwidgets-help" "\
@@ -30,16 +29,14 @@ List wxWidgets class in its default HTML manual
 
 ;;;***
 
-;;;### (autoloads nil nil ("wxwidgets-help-pkg.el") (21000 30703
-;;;;;;  631122 0))
+;;;### (autoloads nil nil ("wxwidgets-help-pkg.el") (21703 20802
+;;;;;;  704100 0))
 
 ;;;***
 
-(provide 'wxwidgets-help-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; wxwidgets-help-autoloads.el ends here

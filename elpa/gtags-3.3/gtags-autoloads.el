@@ -1,10 +1,9 @@
 ;;; gtags-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (gtags-mode) "gtags" "gtags.el" (21000 30690 0
-;;;;;;  0))
+;;;### (autoloads nil "gtags" "gtags.el" (21703 20715 0 0))
 ;;; Generated autoloads from gtags.el
 
 (autoload 'gtags-mode "gtags" "\
@@ -46,15 +45,9 @@ with no args, if that value is non-nil.
 
 ;;;***
 
-;;;### (autoloads nil nil ("gtags-pkg.el") (21000 30690 497304 0))
-
-;;;***
-
-(provide 'gtags-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; gtags-autoloads.el ends here

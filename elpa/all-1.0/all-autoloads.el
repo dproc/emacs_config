@@ -1,9 +1,9 @@
 ;;; all-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (all) "all" "all.el" (21000 30439 0 0))
+;;;### (autoloads nil "all" "all.el" (21703 19976 0 0))
 ;;; Generated autoloads from all.el
 
 (autoload 'all "all" "\
@@ -23,15 +23,9 @@ Any changes made in that buffer will be propagated to this buffer.
 
 ;;;***
 
-;;;### (autoloads nil nil ("all-pkg.el") (21000 30439 788077 0))
-
-;;;***
-
-(provide 'all-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; all-autoloads.el ends here

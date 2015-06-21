@@ -1,10 +1,10 @@
 ;;; issue-tracker-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (issue-tracker-increment-issue-id-under-cursor)
-;;;;;;  "issue-tracker" "issue-tracker.el" (21000 31469 0 0))
+;;;### (autoloads nil "issue-tracker" "issue-tracker.el" (21703 21292
+;;;;;;  0 0))
 ;;; Generated autoloads from issue-tracker.el
 
 (autoload 'issue-tracker-increment-issue-id-under-cursor "issue-tracker" "\
@@ -14,16 +14,14 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("issue-tracker-pkg.el") (21000 31469 640596
+;;;### (autoloads nil nil ("issue-tracker-pkg.el") (21703 21292 914619
 ;;;;;;  0))
 
 ;;;***
 
-(provide 'issue-tracker-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; issue-tracker-autoloads.el ends here

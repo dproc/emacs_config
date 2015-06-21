@@ -1,10 +1,9 @@
 ;;; lively-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (lively-region lively) "lively" "lively.el" (21000
-;;;;;;  30625 0 0))
+;;;### (autoloads nil "lively" "lively.el" (21703 20586 0 0))
 ;;; Generated autoloads from lively.el
 
 (autoload 'lively "lively" "\
@@ -19,15 +18,9 @@ Make the region lively.
 
 ;;;***
 
-;;;### (autoloads nil nil ("lively-pkg.el") (21000 30625 655277 0))
-
-;;;***
-
-(provide 'lively-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; lively-autoloads.el ends here

@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/" . "asr1k_development/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/" . "DMVPN_DHCP_IOT/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/" . "Feature/")
+ ("/Users/dapliu/Documents/cisco/asr1k/" . "FEATURE and TICKETS and SUPPORT/")
+ ("/Users/dapliu/Documents/cisco/" . "asr1k/")
+ ("/Users/dapliu/Documents/Linux/" . "BOOK/")
+ ("/Users/dapliu/Documents/" . "cisco/")
+ ("/Users/dapliu/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/asr1k_development/"
+ "/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/Kumo/"
+ "/Users/dapliu/Documents/cisco/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "dhcp_tmp.org"
+ "ICS.org"
+ "CCIE_V5_Blueprint_.pdf"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/asr1k_development/" (21686 14292 0 0) "Summary for DHCP over DMVPN and Experimental Development on IOS-XE.pptx" "IPv4 DHCP vs IPv6 DHCPv6 - Packet Pushers Podcast_files/" "IPv4 DHCP vs IPv6 DHCPv6 - Packet Pushers Podcast.html" "dhcpv6_1013-DHCPS.pcap" "dhcpv6_1013-DHCPC.pcap" "dhcpv6.pdf" "dhcpv4_cap1001.pcap" "dhcpv4_cap1000.pcap" "dhcp_tmp.org" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/dhcp/" (21632 26507 0 0) "鳥哥的 Linux 私房菜 -- DHCP 伺服器_files/" "鳥哥的 Linux 私房菜 -- DHCP 伺服器.html" "dhcpd/" "dhclient/" "Chapter 10. Dynamic Host Configuration Protocol (DHCP)_files/" "Chapter 10. Dynamic Host Configuration Protocol (DHCP).html" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/" (21686 32934 0 0) "wlan_device/" "wlan_connection/" "wlan_base/" "presentation_slides/" "NetworkManager/" "namespace/" "multiple_ssid_VAP_VIF/" "linux_config.org_archive" "linux_config.org" "linux_config.html" "ip_tunnel/" "install_fedora/" "hostapd/" "EOGRE DHCPv6 testbed description.pptx" "dhcp/" "default_gateway/" "asr1k_development/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/Kumo/" (21833 54554 0 0) "toberead/" "testbedsetup/" "some_filename.png" "rekey.png" "read/" "packet_format_data_structure_paket_flow_crypto_algorithm_rekey.docx" "n1kc_kumo_arch_spec.docx" "Master_Test_Plan_Kumo_template.doc" "KumoCloudManagerSFS.doc" "ingress.png" "ICSFig9.png" "ICSFig8.png" "ICSFig7.png" "ICSFig6.png" "ICSFig5.png" "ICSFig4.png" "ICSFig3.png" "ICSFig2.png" "ICSFig10.png" "ICSFig1.png" "ICS.txt" "ICS.pptx" "ICS.org copy 3" "ICS.org copy 2" "ICS.org copy" "ICS.org" "ICS.html" "ICS copy.pptx" "ICF_Tunnel_Discussion.pptx" "ICF_Tunnel_Discussion copy 2.pptx" "egress.png" "data_structures.png" "Cirrus-InterCloudFabric-Badal-Re-EC-Presentation.pptx" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/" (21749 10739 0 0) "MSFT_AZURE/" "MPLSoverFLEXVPN/" "Kumo/" "IPv6 mGRE TP/" "IPv6 GRE TP/" "DMVPN_DHCP_IOT/" "CTSoverDMVPN/" "Auto Tunnel/" "AMT/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/" (20697 128 0 0) "tickets/" "support/" "Feature/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/asr1k/" (21631 11451 0 0) "vocation/" "ultra/" "Small Works/" "ovld/" "Ou_Operation_Tips/" "Ou_Operation Tips.7z" "Operation/" "misc/" "LAB/" "FEATURE and TICKETS and SUPPORT/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/cisco/" (21833 42646 0 0) "softtoken_cfg_init/" "materials/" "IEWB" "Hello World/" "DevTest/" "ccieRS_examUpdates4-5.pdf" "CCIE_V5_Blueprint_.pdf" "asr1k/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/Linux/BOOK/" (21833 39097 0 0) "Tool_Box/" "task_diary.org copy 8" "task_diary.org copy 7" "task_diary.org copy 6" "task_diary.org copy 5" "task_diary.org copy 4" "task_diary.org copy 3" "task_diary.org copy 2" "task_diary.org copy" "task_diary.org" "System_Programming/" "OS_Kernel/" "master_website/" "master_blogs/" "Computer_System/" "C_system/" "Algorithm_Data_Structure_Programming/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/Linux/" (21833 39766 0 0) "OperationMisc/" "Network/" "li_book/" "BOOK/" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/Documents/" (21833 38700 0 0) "re_image/" "RDC Connections/" "Private Files/" "Ongoing Misc/" "Microsoft User Data/" "Linux/" "cisco/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/dapliu/" (21833 42558 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "emacs_d_bak/" "Downloads/" "Documents/" "Desktop/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vnc/" ".Trash/" ".rnd" ".profile" ".fontconfig/" ".emacs.d/" ".DS_Store" ".CFUserTextEncoding" ".cache/" ".bash_history" ".backups/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

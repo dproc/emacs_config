@@ -1,10 +1,10 @@
 ;;; slime-repl-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (slime-repl-init) "slime-repl" "slime-repl.el"
-;;;;;;  (21000 30529 0 0))
+;;;### (autoloads nil "slime-repl" "slime-repl.el" (21703 20071 0
+;;;;;;  0))
 ;;; Generated autoloads from slime-repl.el
 
 (autoload 'slime-repl-init "slime-repl" "\
@@ -16,16 +16,9 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("slime-repl-pkg.el") (21000 30529 543154
-;;;;;;  0))
-
-;;;***
-
-(provide 'slime-repl-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; slime-repl-autoloads.el ends here
