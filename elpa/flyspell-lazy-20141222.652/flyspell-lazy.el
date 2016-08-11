@@ -5,8 +5,8 @@
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/flyspell-lazy
 ;; URL: http://raw.githubusercontent.com/rolandwalker/flyspell-lazy/master/flyspell-lazy.el
-;; Version: 20141222.652
-;; X-Original-Version: 0.6.10
+;; Package-Version: 20141222.652
+;; Version: 0.6.10
 ;; Last-Updated: 22 Dec 2014
 ;; EmacsWiki: FlyspellLazy
 ;; Keywords: spelling

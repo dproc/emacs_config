@@ -1,16 +1,68 @@
 
 ;; ----- smex-history -----
 (
- cd
- mf
- 5x5
- all
- arp
- dbx
- dig
+ customize-themes
+ describe-fontset
+ describe-font
+ list-fontsets
+ customize-face
+ find-file
+ find-file-literally
 )
 
 ;; ----- smex-data -----
 (
- 
+ (list-command-history . 1)
+ (command-history . 1)
+ (rgrep . 15)
+ (shell . 5)
+ (artist-mode . 87)
+ (image-mode . 5)
+ (delete-region . 2)
+ (recover-this-file . 1)
+ (org-mode . 1)
+ (search-forward . 1)
+ (org-previous-item . 7)
+ (org-backward-heading-same-level . 1)
+ (org-beginning-of-item-list . 19)
+ (org-beginning-of-item . 6)
+ (org-cycle-level . 2)
+ (org-cycle-list-bullet . 1)
+ (transient-mark-mode . 2)
+ (helm-mark-ring . 2)
+ (diredp-do-bookmark-in-bookmark-file-recursive . 1)
+ (pop-to-mark-command . 2)
+ (rcirc . 3)
+ (calendar . 1)
+ (org-agenda-to-appt . 1)
+ (server-start . 2)
+ (server-mode . 3)
+ (scratch . 2)
+ (isearch-mode-help . 1)
+ (kbd-macro-query . 7)
+ (new-frame . 1)
+ (text-mode . 2)
+ (visual-line-mode . 4)
+ (count-lines-page . 1)
+ (c-mode . 1)
+ (info-apropos . 2)
+ (occur . 6)
+ (count-matches . 4)
+ (keep-lines . 2)
+ (find-tag . 1)
+ (find-dired . 2)
+ (semantic-narrow-to-tag . 1)
+ (replace-string . 18)
+ (count-words-region . 5)
+ (replace-regexp . 12)
+ (fundamental-mode . 1)
+ (org-mode-restart . 1)
+ (list-packages . 1)
+ (find-file . 2)
+ (find-file-literally . 1)
+ (customize-face . 1)
+ (describe-fontset . 2)
+ (describe-font . 6)
+ (customize-themes . 3)
+ (list-fontsets . 1)
 )

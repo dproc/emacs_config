@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "creole" "creole.el" (21703 21002 0 0))
+;;;### (autoloads nil "creole" "creole.el" (22411 43775 0 0))
 ;;; Generated autoloads from creole.el
 
 (autoload 'creole-wiki "creole" "\

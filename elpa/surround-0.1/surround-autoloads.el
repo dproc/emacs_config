@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "surround" "surround.el" (21703 20827 0 0))
+;;;### (autoloads nil "surround" "surround.el" (22411 43087 0 0))
 ;;; Generated autoloads from surround.el
 
 (autoload 'surround-delete "surround" "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "gtags" "gtags.el" (21703 20715 0 0))
+;;;### (autoloads nil "gtags" "gtags.el" (22411 42891 0 0))
 ;;; Generated autoloads from gtags.el
 
 (autoload 'gtags-mode "gtags" "\

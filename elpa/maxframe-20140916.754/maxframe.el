@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2007 Ryan McGeary
 ;; Author: Ryan McGeary
-;; Version: 20140916.754
-;; X-Original-Version: 0.5
+;; Version: 0.5
+;; Package-Version: 20140916.754
 ;; Keywords: display frame window maximize
 
 ;; This code is free; you can redistribute it and/or modify it under the

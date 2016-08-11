@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ac-nrepl" "ac-nrepl.el" (21703 20558 0 0))
+;;;### (autoloads nil "ac-nrepl" "ac-nrepl.el" (22411 38863 0 0))
 ;;; Generated autoloads from ac-nrepl.el
 
 (defface ac-nrepl-candidate-face '((t (:inherit ac-candidate-face))) "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "marmalade" "marmalade.el" (21703 20525 0 0))
+;;;### (autoloads nil "marmalade" "marmalade.el" (22411 36976 0 0))
 ;;; Generated autoloads from marmalade.el
 
 (autoload 'marmalade-login "marmalade" "\

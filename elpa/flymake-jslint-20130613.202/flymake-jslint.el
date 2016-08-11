@@ -2,8 +2,8 @@
 ;;
 ;;; Author: Steve Purcell <steve@sanityinc.com>
 ;;; Homepage: https://github.com/purcell/flymake-jslint
-;; Version: 20130613.202
-;;; X-Original-Version: DEV
+;;; Version: DEV
+;; Package-Version: 20130613.202
 ;;; Package-Requires: ((flymake-easy "0.1"))
 ;;
 ;;; Commentary:

@@ -2,8 +2,8 @@
 ;;
 ;;; Author: Steve Purcell <steve@sanityinc.com>
 ;;; URL: https://github.com/purcell/flymake-haml
-;; Version: 20130324.351
-;;; X-Original-Version: DEV
+;; Package-Version: 20130324.351
+;;; Version: DEV
 ;;; Package-Requires: ((flymake-easy "0.1"))
 ;;
 ;;; Commentary:

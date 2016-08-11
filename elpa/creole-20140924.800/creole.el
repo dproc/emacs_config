@@ -5,8 +5,8 @@
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Created: 27th October 2011
-;; Version: 20140924.800
-;; X-Original-Version: 1.0.6
+;; Version: 1.0.6
+;; Package-Version: 20140924.800
 ;; Package-requires: ((noflet "0.0.3")(kv "0.0.17"))
 ;; Keywords: lisp, creole, wiki
 

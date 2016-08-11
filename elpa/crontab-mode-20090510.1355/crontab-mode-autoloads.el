@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "crontab-mode" "crontab-mode.el" (21703 20567
+;;;### (autoloads nil "crontab-mode" "crontab-mode.el" (22411 38889
 ;;;;;;  0 0))
 ;;; Generated autoloads from crontab-mode.el
 

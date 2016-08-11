@@ -42,7 +42,7 @@
 ;; win32 auto configuration, assuming that cygwin is installed at "c:/cygwin"
 (if *win32*
 	(progn
-		(setq cygwin-mount-cygwin-bin-directory "c:/cygwin/bin")
+		(setq cygwin-mount-cygwin-bin-directory "c:/cygwin64/bin")
 		(require 'setup-cygwin)
 		;(setenv "HOME" "c:/cygwin/home/someuser") ;; better to set HOME env in GUI
 		))
@@ -219,7 +219,7 @@
  '(flyspell-persistent-highlight nil)
  '(ispell-highlight-p nil)
  '(ispell-lazy-highlight nil)
- '(org-agenda-files (quote ("~/Desktop/journey.org")))
+ '(org-cycle-include-plain-lists (quote integrate))
  '(org-file-apps
    (quote
     (("\\.pdf::\\([0-9]+\\)\\'" . "/Users/dapliu/.emacs.d/site-lisp/geared/open_pdf_at_page_with_Mac_preview.sh %s %1")

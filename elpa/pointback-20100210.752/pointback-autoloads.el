@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "pointback" "pointback.el" (21703 20597 0 0))
+;;;### (autoloads nil "pointback" "pointback.el" (22411 39047 0 0))
 ;;; Generated autoloads from pointback.el
 
 (autoload 'pointback-mode "pointback" "\

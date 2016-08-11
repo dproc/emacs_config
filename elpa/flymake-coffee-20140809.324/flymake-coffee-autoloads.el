@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "flymake-coffee" "flymake-coffee.el" (21703
-;;;;;;  20574 0 0))
+;;;### (autoloads nil "flymake-coffee" "flymake-coffee.el" (22411
+;;;;;;  38922 0 0))
 ;;; Generated autoloads from flymake-coffee.el
 
 (autoload 'flymake-coffee-load "flymake-coffee" "\

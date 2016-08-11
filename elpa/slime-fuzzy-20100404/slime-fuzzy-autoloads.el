@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "slime-fuzzy" "slime-fuzzy.el" (21703 20069
+;;;### (autoloads nil "slime-fuzzy" "slime-fuzzy.el" (22411 36063
 ;;;;;;  0 0))
 ;;; Generated autoloads from slime-fuzzy.el
 

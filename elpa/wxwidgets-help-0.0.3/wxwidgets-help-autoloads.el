@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "wxwidgets-help" "wxwidgets-help.el" (21703
-;;;;;;  20802 0 0))
+;;;### (autoloads nil "wxwidgets-help" "wxwidgets-help.el" (22411
+;;;;;;  43050 0 0))
 ;;; Generated autoloads from wxwidgets-help.el
 
 (autoload 'wxhelp-api-index "wxwidgets-help" "\
@@ -29,8 +29,8 @@ List wxWidgets class in its default HTML manual
 
 ;;;***
 
-;;;### (autoloads nil nil ("wxwidgets-help-pkg.el") (21703 20802
-;;;;;;  704100 0))
+;;;### (autoloads nil nil ("wxwidgets-help-pkg.el") (22411 43050
+;;;;;;  676000 0))
 
 ;;;***
 

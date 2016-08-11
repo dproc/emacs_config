@@ -3,8 +3,8 @@
 ;; Copyright (C) 2013 Marc-Olivier Ricard
 
 ;; Author: Marc-Olivier Ricard <marco.ricard@gmail.com>
-;; Version: 20130215.1304
-;; X-Original-Version: 1.1
+;; Version: 1.1
+;; Package-Version: 20130215.1304
 ;; Keywords: Javascript, AMD, RequireJs
 
 ;; This file is not part of GNU Emacs.

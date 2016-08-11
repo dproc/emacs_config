@@ -4,8 +4,8 @@
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/flymake-python-pyflakes
-;; Version: 20131127.6
-;; X-Original-Version: DEV
+;; Package-Version: 20131127.6
+;; Version: DEV
 ;; Package-Requires: ((flymake-easy "0.8"))
 
 ;;; Commentary:

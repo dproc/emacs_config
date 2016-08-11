@@ -5,8 +5,8 @@
 ;; Author: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Maintainer: Nic Ferrier <nferrier@ferrier.me.uk>
 ;; Created: 3 Aug 2012
-;; Version: 20141231.1201
-;; X-Original-Version: 0.5.2
+;; Version: 0.5.2
+;; Package-Version: 20141231.1201
 ;; Url: http://github.com/nicferrier/emacs-web
 ;; Keywords: lisp, http, hypermedia
 ;; Package-requires: ((dash "2.9.0")(s "1.5.0"))

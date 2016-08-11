@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "slime" "slime.el" (21703 20065 0 0))
+;;;### (autoloads nil "slime" "slime.el" (22411 36052 0 0))
 ;;; Generated autoloads from slime.el
 
 (defvar slime-lisp-modes '(lisp-mode))

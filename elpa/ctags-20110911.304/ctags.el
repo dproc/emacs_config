@@ -2,8 +2,8 @@
 
 ;; Copyright  (C)  2011 Free Software Foundation, Inc.
 
-;; Version: 20110911.304
-;; X-Original-Version: 1.1.1
+;; Version: 1.1.1
+;; Package-Version: 20110911.304
 ;; Keywords: tags ctags etags
 ;; Author: Guilherme M. Gondim <semente@taurinus.org>
 ;; Maintainer: Guilherme M. Gondim <semente@taurinus.org>

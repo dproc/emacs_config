@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "flymake-css" "flymake-css.el" (21703 20575
+;;;### (autoloads nil "flymake-css" "flymake-css.el" (22411 38926
 ;;;;;;  0 0))
 ;;; Generated autoloads from flymake-css.el
 

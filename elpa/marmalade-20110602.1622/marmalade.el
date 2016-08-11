@@ -4,8 +4,8 @@
 
 ;; Author: Nathan Weizenbaum <nweiz@google.com>
 ;; URL: http://code.google.com/p/marmalade
-;; Version: 20110602.1622
-;; X-Original-Version: 0.0.4
+;; Package-Version: 20110602.1622
+;; Version: 0.0.4
 ;; Package-Requires: ((furl "0.0.2"))
 
 ;;; Commentary:

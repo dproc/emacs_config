@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "issue-tracker" "issue-tracker.el" (21703 21292
+;;;### (autoloads nil "issue-tracker" "issue-tracker.el" (22411 43858
 ;;;;;;  0 0))
 ;;; Generated autoloads from issue-tracker.el
 
@@ -14,7 +14,7 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("issue-tracker-pkg.el") (21703 21292 914619
+;;;### (autoloads nil nil ("issue-tracker-pkg.el") (22411 43858 90000
 ;;;;;;  0))
 
 ;;;***

@@ -4,9 +4,9 @@
 
 ;; Author: Brian Jiang <brianjcj@gmail.com>
 ;; Keywords: completion, convenience
+;; Package-Version: 20140409.52
 ;; URL: https://github.com/brianjcj/auto-complete-clang
-;; Version: 20140409.52
-;; X-Original-Version: 0.1i
+;; Version: 0.1i
 ;; Package-Requires: ((auto-complete "1.3.1"))
 
 ;; This program is free software; you can redistribute it and/or modify
