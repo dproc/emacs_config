@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ list-packages
  customize-themes
  describe-fontset
  describe-font
  list-fontsets
  customize-face
  find-file
- find-file-literally
 )
 
 ;; ----- smex-data -----
@@ -57,7 +57,7 @@
  (replace-regexp . 12)
  (fundamental-mode . 1)
  (org-mode-restart . 1)
- (list-packages . 1)
+ (list-packages . 2)
  (find-file . 2)
  (find-file-literally . 1)
  (customize-face . 1)
