@@ -267,4 +267,17 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 ;; '("Microsoft Yahei" "文泉驿等宽微米黑" "黑体" "新宋体" "宋体"))
 ;;;;;;;;;;;;;;;;font setup end;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;Toggle window dedication;;;;;;;;;;
+(defun toggle-window-dedicated ()
+"Toggle whether the current active window is dedicated or not"
+(interactive)
+(message 
+ (if (let (window (get-buffer-window (current-buffer)))
+       (set-window-dedicated-p window 
+        (not (window-dedicated-p window))))
+    "Window '%s' is dedicated"
+    "Window '%s' is normal")
+ (current-buffer)))
+;;;;;;;;;;;;;Toggle window dedication end;;;;;;
+
 (provide 'init-local)
