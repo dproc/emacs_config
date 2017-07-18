@@ -225,9 +225,9 @@
   (if (null (x-list-fonts font))
       nil
     t))
-(defvar font-list '("Microsoft Yahei" "文泉驿等宽微米黑" "黑体" "新宋体" "宋体"))
+;;(defvar font-list '("Microsoft Yahei" "文泉驿等宽微米黑" "黑体" "新宋体" "宋体"))
 (require 'cl) ;; find-if is in common list package
-(find-if #'qiang-font-existsp font-list)
+;;(find-if #'qiang-font-existsp font-list)
 (defun qiang-make-font-string (font-name font-size)
   (if (and (stringp font-size)
            (equal ":" (string (elt font-size 0))))
