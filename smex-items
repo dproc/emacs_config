@@ -1,31 +1,31 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ package-delete
+ package-refresh-contents
  list-packages
- customize-themes
- describe-fontset
- describe-font
- list-fontsets
- customize-face
- find-file
+ serial-term
+ highlight-symbol-at-point
+ artist-mode
 )
 
 ;; ----- smex-data -----
 (
  (list-command-history . 1)
- (command-history . 1)
- (rgrep . 15)
- (shell . 5)
- (artist-mode . 87)
+ (command-history . 2)
+ (rgrep . 18)
+ (shell . 6)
+ (artist-mode . 144)
  (image-mode . 5)
- (delete-region . 2)
+ (delete-region . 19)
  (recover-this-file . 1)
- (org-mode . 1)
+ (org-mode . 4)
  (search-forward . 1)
  (org-previous-item . 7)
  (org-backward-heading-same-level . 1)
- (org-beginning-of-item-list . 19)
- (org-beginning-of-item . 6)
+ (org-beginning-of-item-list . 33)
+ (org-beginning-of-item . 14)
  (org-cycle-level . 2)
  (org-cycle-list-bullet . 1)
  (transient-mark-mode . 2)
@@ -35,9 +35,9 @@
  (rcirc . 3)
  (calendar . 1)
  (org-agenda-to-appt . 1)
- (server-start . 2)
+ (server-start . 5)
  (server-mode . 3)
- (scratch . 2)
+ (scratch . 63)
  (isearch-mode-help . 1)
  (kbd-macro-query . 7)
  (new-frame . 1)
@@ -46,23 +46,47 @@
  (count-lines-page . 1)
  (c-mode . 1)
  (info-apropos . 2)
- (occur . 6)
+ (occur . 7)
  (count-matches . 4)
- (keep-lines . 2)
+ (keep-lines . 10)
  (find-tag . 1)
  (find-dired . 2)
  (semantic-narrow-to-tag . 1)
- (replace-string . 18)
- (count-words-region . 5)
- (replace-regexp . 12)
+ (replace-string . 21)
+ (count-words-region . 16)
+ (replace-regexp . 16)
  (fundamental-mode . 1)
  (org-mode-restart . 1)
- (list-packages . 2)
+ (list-packages . 8)
  (find-file . 2)
  (find-file-literally . 1)
  (customize-face . 1)
  (describe-fontset . 2)
- (describe-font . 6)
+ (describe-font . 7)
  (customize-themes . 3)
  (list-fontsets . 1)
+ (org-toggle-inline-images . 2)
+ (org-display-inline-images . 4)
+ (delete-blank-lines . 5)
+ (shell-mode . 1)
+ (term . 1)
+ (delete-matching-lines . 1)
+ (grep . 3)
+ (align . 5)
+ (align-regexp . 8)
+ (just-one-space . 1)
+ (comment-region . 5)
+ (revert-buffer-with-coding-system . 6)
+ (list-coding-systems . 2)
+ (describe-char . 2)
+ (org-store-link . 1)
+ (yari . 2)
+ (ediff-buffers . 3)
+ (highlight-symbol-mode . 4)
+ (highlight-symbol-at-point . 2)
+ (highlight-symbol-next . 1)
+ (serial-term . 1)
+ (package-refresh-contents . 1)
+ (package-install . 3)
+ (package-delete . 2)
 )

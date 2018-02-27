@@ -81,6 +81,8 @@ ARCHIVE is the string name of the package archive.")
 ;;------------------------------------------------------------------------------
 
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+;;(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 (defvar melpa-exclude-packages
   ;; I'm happy my packages included in melpa. But need time to switch to melpa finally
