@@ -1,0 +1,486 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchsai/" . "src/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchapi/" . "src/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/p4src/" . "includes/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/" . "p4src/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/" . "online_setup/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/liquid_cooling_oob_down/" . "syslog_dir/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/" . "liquid_cooling_oob_down/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/" . "bf_kpkt/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/" . "kdrv/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/" . "pkgsrc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/p4src/" . "includes/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/SAI/" . "inc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/" . "SAI/")
+ ("/home/dapeng/sonic/sonic_images-config_files/" . "konsole/")
+ ("/home/dapeng/" . "sonic/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/" . "src/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/" . "switchsai/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/" . "pkgsrc/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/config_gen/" . "templates/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/" . "p1/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/config_gen/" . "templates/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/" . "a12/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/" . "POD10_setup/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/" . "templates/")
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/" . "config_gen/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/gen-py/" . "switch_api/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/" . "gen-py/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/" . "switchapi/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/telemetry/" . "api-tests/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/" . "telemetry/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/" . "bf_switchd/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofino/" . "plcmt_pd_rpc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofinopd/switch/" . "p4_pd_rpc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofinopd/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/" . "tofino/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/" . "site-packages/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/tofinopd/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/" . "python2.7/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/" . "lib/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/" . "common/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/bf-drivers/" . "pdfixed_thrift/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/" . "ptf-tests/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/" . "pkgsrc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/p4src/" . "includes/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchsai/submodules/SAI/" . "inc/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchsai/submodules/" . "SAI/")
+ ("/home/dapeng/bf/" . "bf_jessie/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchsai/" . "src/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/lib/python2.7/site-packages/" . "ptf/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/lib/python2.7/" . "site-packages/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/lib/" . "python2.7/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/" . "lib/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchapi/" . "src/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/dtel/api-tests/" . "int-api-tests/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/dtel/" . "api-tests/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/" . "base/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/" . "switchapi/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/" . "switch/")
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/" . "build/")
+ ("/home/dapeng/bf/bf_jessie/" . "bf-sde-7.0.2.97/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-py-swsssdk/" . "src/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-py-swsssdk/src/swsssdk/" . "config/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-py-swsssdk/src/" . "swsssdk/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/platform/barefoot/" . "docker-syncd-bfn/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/platform/" . "barefoot/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/" . "platform/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-sairedis/SAI/" . "inc/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-swss/swssconfig/" . "sample/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-swss/" . "orchagent/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-utilities/" . "switch/")
+ ("/home/dapeng/sonic/sonic_buildimage_bfn/platform/" . "barefoot/")
+ ("/home/dapeng/sonic/sonic_buildimage_bfn/src/sonic-sairedis/syncd/" . "scripts/")
+ ("/home/dapeng/sonic/sonic_buildimage_bfn/src/sonic-sairedis/" . "syncd/")
+ ("/home/dapeng/sonic/sonic_buildimage_bfn/src/" . "sonic-sairedis/")
+ ("/home/dapeng/sonic/sonic_buildimage_bfn/" . "platform/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/sonic-sairedis/" . "SAI/")
+ ("/home/dapeng/sonic/sonic_buildimage_gitlab/src/" . "sonic-swss/")
+ ("/home/dapeng/sonic/" . "sonic_images-config_files/")
+ ("/root/.emacs.d/" . "lisp/")
+ ("/root/" . ".emacs.d/")
+ ("/Users/dapengliu/Desktop/" . "syslog/")
+ ("/Users/dapengliu/Downloads/" . "test/")
+ ("/Users/dapengliu/Documents/Ali/barefoot/sonic_bfn/20171121sde61/" . "6.1.0.15/")
+ ("/Users/dapengliu/Documents/Ali/barefoot/sonic_bfn/20171027sde60/P1 SONIC (Oct-Nov)/" . "Sonic_patches/")
+ ("/Users/dapengliu/Documents/Ali/barefoot/sonic_bfn/20171027sde60/" . "P1 SONIC (Oct-Nov)/")
+ ("/Users/dapengliu/Documents/Ali/barefoot/sonic_bfn/" . "20171121sde61/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/OS_Kernel/source/" . "linux-3.10.5/")
+ ("/Users/dapengliu/.emacs.d/site-lisp/" . "geared/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/Operation/" . "DHCP_TFTP_NFS_PXE_KICKSTART网络安装Redhat_Linux/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/OS/Network/wireshark development guide/" . "wireshark lua dissector/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/OS/Network/" . "wireshark development guide/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/OS/" . "Network/")
+ ("/Applications/Wireshark.app/Contents/Resources/share/" . "wireshark/")
+ ("/Applications/Wireshark.app/Contents/Resources/" . "share/")
+ ("/Applications/Wireshark.app/Contents/" . "Resources/")
+ ("/Applications/Wireshark.app/" . "Contents/")
+ ("/Applications/" . "Wireshark.app/")
+ ("/Users/dapengliu/Documents/Ali/barefoot/" . "sonic_bfn/")
+ ("/Users/dapengliu/Documents/Ali/SONiC/configuration sample/" . "液冷配置/")
+ ("/Users/dapengliu/Documents/Ali/SONiC/" . "AVL配置/")
+ ("/Users/dapengliu/Documents/Linux/Private Files/" . "用户/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/Tool_Box/other_useful_tools/" . "tmux/")
+ ("/Users/dapengliu/Documents/Ali/" . "barefoot/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/" . "ofp/")
+ ("/Users/" . "dapengliu/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/Tool_Box/" . "gdb/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/Networking/" . "linux_network_configuation_status/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/System_Programming/" . "Operation/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/Computer_System/Virtualization/" . "lxc docker/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/Computer_System/" . "Virtualization/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/OS_Kernel/kernel/Other Building Blocks/" . "namespace_cgroup/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/OS_Kernel/kernel/" . "Networking/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/OS_Kernel/" . "source/")
+ ("/Users/dapengliu/Documents/Linux/BOOK/" . "Tool_Box/")
+ ("/Users/dapengliu/.emacs.d/" . "site-lisp/")
+ ("/Users/dapengliu/Documents/Linux/" . "Private Files/")
+ ("/Users/dapengliu/Documents/" . "Linux/")
+ ("/Users/dapengliu/" . "Desktop/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/Tool_Box/source_management_system/" . "GIT/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/Tool_Box/" . "source_management_system/")
+ ("c:/Users/" . "dapliu01/")
+ ("/cygdrive/c/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/" . "odp/")
+ ("/cygdrive/c/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/kernel/" . "Networking/")
+ ("/cygdrive/c/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/" . "kernel/")
+ ("/cygdrive/c/Users/dapliu01/Documents/Linux/BOOK/" . "OS_Kernel/")
+ ("/cygdrive/c/Users/dapliu01/Documents/Linux/" . "BOOK/")
+ ("/cygdrive/c/Users/dapliu01/Documents/" . "Linux/")
+ ("/cygdrive/c/Users/dapliu01/" . "Documents/")
+ ("/cygdrive/c/Users/" . "dapliu01/")
+ ("/cygdrive/c/" . "Users/")
+ ("/cygdrive/" . "c/")
+ ("/home/" . "dapeng/")
+ ("/" . "home/")
+ ("/usr/" . "bin/")
+ ("c:/cygwin64/usr/" . "sbin/")
+ ("c:/cygwin64/" . "bin/")
+ ("c:/Users/dapliu01/" . "Documents/")
+ ("c:/" . "cygwin64/")
+ ("c:/Users/dapliu01/Documents/home/.emacs.d/site-lisp/" . "geared/")
+ ("c:/Users/dapliu01/Documents/home/.emacs.d/" . "site-lisp/")
+ ("c:/Users/dapliu01/Documents/home/" . ".emacs.d/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/" . "odp_source/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/" . "odp/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/kernel/" . "Networking/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/OS_Kernel/" . "kernel/")
+ ("c:/Users/dapliu01/Documents/Linux/BOOK/" . "Tool_Box/")
+ ("c:/Users/dapliu01/Documents/Linux/" . "BOOK/")
+ ("c:/Users/dapliu01/Documents/" . "home/")
+ ("/Users/dapliu/Documents/cisco/materials/Tunnel/MCP Tunnel Bassis/SFS/" . "Gaotao tunnel multiflow case study/")
+ ("/Users/dapliu/Documents/cisco/materials/Tunnel/MCP Tunnel Bassis/" . "SFS/")
+ ("/Users/dapliu/Documents/cisco/materials/Tunnel/" . "MCP Tunnel Bassis/")
+ ("/Users/dapliu/Documents/cisco/materials/" . "Tunnel/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/include/odp/api/" . "spec/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/include/odp/api/" . "plat/")
+ ("/Users/dapliu/Downloads/CSCuy80729/" . "gdb_log/")
+ ("/Users/dapliu/Downloads/binshilog/" . "dapeng2/")
+ ("/Users/dapliu/Downloads/" . "CSCuy80729/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/trex_source/src/pal/" . "linux_dpdk/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/trex_source/src/" . "pal/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/helper/include/odp/" . "helper/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/helper/include/" . "odp/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/arch/" . "linux/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/trex_source/scripts/ko/" . "src/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/trex_source/scripts/" . "ko/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/trex_source/" . "scripts/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/trex/" . "trex_source/")
+ ("/Users/dapliu/Documents/Linux/BOOK/Tool_Box/source_management_system/" . "GIT/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/include/" . "odp/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/example/" . "classifier/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/include/odp/" . "api/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/include/" . "odp/")
+ ("/Users/dapliu/Documents/Linux/BOOK/Tool_Box/linux_emcas_cscope/emacs/" . "auxiliary_manual/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/test/" . "pktio/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/linux-generic/" . "include/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/platform/" . "linux-generic/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/include/odp/" . "api/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/test/validation/" . "pktio/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/test/" . "validation/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/odp_source/" . "helper/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/odp/" . "odp_source/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/pmap_netmap_pf-ring/netmap_source/" . "LINUX/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/pmap_netmap_pf-ring/" . "netmap_source/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/Networking/" . "odp/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/kernel/" . "Networking/")
+ ("/Users/dapliu/Documents/Linux/BOOK/C_system/Complier_Assembler_Static-Linker_Dynamic-Linker_LibC_crt_Tool-Chain_C-Run-Time/glibc/" . "glibc_source/")
+ ("/Users/dapliu/Documents/Linux/BOOK/C_system/Complier_Assembler_Static-Linker_Dynamic-Linker_LibC_crt_Tool-Chain_C-Run-Time/" . "glibc/")
+ ("/Users/dapliu/Documents/Linux/BOOK/C_system/" . "Complier_Assembler_Static-Linker_Dynamic-Linker_LibC_crt_Tool-Chain_C-Run-Time/")
+ ("/Users/dapliu/Documents/Linux/BOOK/Tool_Box/other_useful_tools/" . "tmux/")
+ ("/Users/dapliu/Documents/Linux/BOOK/Tool_Box/" . "other_useful_tools/")
+ ("/Users/dapliu/.emacs.d/" . "lisp/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/Auto Tunnel/" . "AsymmetricRouting/")
+ ("/Users/dapliu/Documents/Ongoing Misc/" . "ultra_ulord/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/source/" . "linux-3.10.5/")
+ ("/Users/dapliu/Documents/Linux/BOOK/OS_Kernel/" . "kernel/")
+ ("/Users/dapliu/Documents/Linux/BOOK/" . "Tool_Box/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/DMVPN_DHCP_IOT/" . "asr1k_development/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/Feature/" . "Auto Tunnel/")
+ ("/Users/dapliu/Documents/cisco/asr1k/FEATURE and TICKETS and SUPPORT/" . "Feature/")
+ ("/Users/dapliu/Documents/cisco/asr1k/" . "FEATURE and TICKETS and SUPPORT/")
+ ("/Users/dapliu/Documents/cisco/" . "materials/")
+ ("/Users/dapliu/Documents/Linux/" . "BOOK/")
+ ("/Users/dapliu/Documents/" . "cisco/")
+ ("/Users/dapliu/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/p4src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-6.1.2.44/pkgsrc/switch/switchapi/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchsai/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-5.0.0.225/pkgsrc/switch-5.0.0.225/switchapi/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchapi/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.82/pkgsrc/switch/switchapi/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/p4src/includes/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/templates/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/a11/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/a12/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/liquid_cooling_oob_down/syslog_dir/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_kpkt/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_knet/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_kdrv/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/p4src/includes/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/SAI/inc/"
+ "/home/dapeng/sonic/sonic_images-config_files/konsole/20171220/"
+ "/home/dapeng/sonic/sonic_images-config_files/konsole/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/p4src/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/p1/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/a11/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/a11/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/a12/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/output/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/config_gen/templates/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/config_gen/"
+ "/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/config_gen/templates/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/gen-py/switch_api/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchapi/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchsai/src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/telemetry/"
+ "/root/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/p4src/includes/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/bf_switchd/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/dtel/api-tests/int-api-tests/"
+ "/home/dapeng/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchapi/xml/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/p4src/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/dtel/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/lib/python2.7/site-packages/ptf/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/common/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/api-tests/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.82/pkgsrc/switch/p4src/includes/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/"
+ "/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchsai/submodules/SAI/inc/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "l2.p4"
+ "switch_nhop.c"
+ "saineighbor.c"
+ "switch_neighbor.c"
+ "switch_l3.c"
+ "p4features.h"
+ "settings.py"
+ "config_gen.py"
+ "psw_config_db.json.j2"
+ "asw_config_db.json.j2"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/p4src/" (23284 21822 538083 295000) "wred.p4" "hashes.p4" "pktgen.p4" "ipv4.p4" "README.md" "openflow.p4" "dtel.p4" "ipv6.p4" "cscope.out" "multicast.p4" "acl.p4" "openflow_mapping/" "rewrite.p4" "failover.p4" "nat.p4" "fabric.p4" "dtel_postcard.p4" "p4_files.am" "mirror.p4" ".clang-format" "egress_filter.p4" "l3.p4" "cscope.files" "meter.p4" "bfd.p4" "../" "switch_config.p4" "flowlet_bmv2.p4" "./" "nexthop.p4" "switch.p4" "dtel_int.p4" "sr.p4" "includes/" "port.p4" "qos.p4" "sflow.p4" "tunnel.p4" "dtel_int_over_l4.p4" "l2.p4" "flowlet.p4" "security.p4" "ila.p4")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchsai/src/" (23272 64602 0 0) "switch_sai_rpc_server.cpp.bfn" "sailag.c" "saiport.c" "saiobject.c" "saibuffer.c" "saistp.c" "sail2mc.c" "sairouterinterface.c" "saihostif.c" "switch_sai_rpc_server.cpp" "saidtel.c" "saischedulergroup.c" "saineighbor.c" "saihash.c" "port.cfg.sample" "saiudf.c" "sai_bflib.c" "saiipmc.c" "saivlan.c" "saiqosmap.c" "sairoute.c" "saiqueue.c" "saiacl.c" "sainexthopgroup.c" "saiswitch.c" "switch_sai.thrift.bfn" "sainexthop.c" "saipolicer.c" "../" "saibridge.c" "./" "sai.c" "switch_sai.thrift" "saimirror.c" "saiwred.c" "saivirtualrouter.c" "sai-param-check.c" "saiutils.c" "saiinternal.h" "saifdb.c" "saischeduler.c")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-5.0.0.225/pkgsrc/switch-5.0.0.225/switchapi/src/" (22969 53655 0 0) "switch_pd_telemetry_INT.c" "switch_pd_ila.c" "switch_neighbor_int.h" "switch_rif_int.h" "switch_vlan_int.h" "switch_nhop_dump.c" "switch_hostif_int.h" "switch_l2_dump.c" "switch_vrf_int.h" "switch_telemetry_init.h" "switch_ver.h" "switch_ln_int.h" "switch_handle_int.h" "switch_rmac_int.h" "switch_nhop_int.h" "switch_api_rpc_server.cpp" "switch_pd_bfd.h" "switch_mirror.c" "switch_mcast_int.h" "switch_device_int.h" "switch_table_int.h" "switch_config_dump.c" "switch_tunnel.c" "switch_vlan_dump.c" "switch_mirror_int.h" "switch_neighbor.c" "switch_hostif.c" "switch_port_int.h" "switch_pd_sr.c" "switch_buffer.c" "switch_pd_telemetry.h" "switch_telemetry_int.h" "switch_handle.c" "switch_nat.c" "switch_ila.c" "switch_neighbor_dump.c" "switch_packet.c" "switch_port_dump.c" "switch_packet_dump.c" "switch_pd_failover.h" "switch_interface.c" "switch_pd.h" "switch_nhop.c" "switch_qos.c" "switch_ln.c" "switch_telemetry_INT.c" "switch_sflow_int.h" "switch_tunnel_int.h" "switch_lag_dump.c" "switch_hostif_dump.c" "switch_label_int.h" "switch_pd_telemetry_postcard.c" "switch_handle_dump.c" "switch_meter_dump.c" "switch_bld_ver.h" "switch_config.c" "switch_sr.c" "switch_api.thrift" "switch_packet_int.h" "switch_wred_int.h" "switch_pd_wred.c" "switch_pd_common.h" "switch_ila_int.h" "switch_utils.c" "switch_l2.c" "switch_bd_int.h" "switch_pd_pktgen.c" "switch_queue.c" "switch_l2_int.h" "switch_rpf_int.h" "switch_sflow.c" "switch_vrf.c" "switch_qos_int.h" "switch_pd_mcast.c" "switch_bd_dump.c" "switch_pd_pktgen.h" "switch_acl.c" "switch_telemetry.c" "switch_mcast.c" "switch_interface_dump.c" "switch_acl_int.h" "switch_meter_int.h" "switch_stp_int.h" "switch_pd_queue.c" "switch_pd_qos.c" "switch_lag.c" "thrift_cache.h" "../" "switch_vlan.c" "switch_meter.c" "switch_table.c" "switch_ln_dump.c" "switch_bfd_int.h" "switch_cli.c" "pre.h" "switch_rmac_dump.c" "switch_port.c" "./" "switch_bfd.c" "switch_stp_dump.c" "switch_pd_common.c" "switch_l3_int.h" "switch_l3.c" "switch_lpm_int.h" "switch_pd_telemetry.c" "switch_buffer_int.h" "switch_failover.c" "switch_telemetry_mod.c" "switch_lpm.c" "switch_rpf_dump.c" "switch_wred.c" "switch_hash.c" "switch_failover_int.h" "switch_init.c" "switch_interface_int.h" "switch_pd_nat.c" "switch_rmac.c" "switch_pd_types.h" "switch_rif.c" "switch_rpf.c" "switch_id.c" "switch_device.c" "switch_scheduler_int.h" "switch_table_dump.c" "switch_pd_buffer.c" "switch_log_int.h" "switch_config_int.h" "switch_log.c" "switch_telemetry_postcard.c" "switch_scheduler.c" "switch_pd_ppg.c" "switch_defines.h" "switch_hash_int.h" "switch_vrf_dump.c" "switch_telemetry_init.c" "switch_pd_failover.c" "switch_types_int.h" "switch_lag_int.h" "switch_device_dump.c" "switch_label.c" "switch_l3_dump.c" "switch_stp.c" "switch_pd_telemetry_mod.c" "switch_acl_dump.c" "switch_sr_int.h" "switch_queue_int.h" "switch_pd_bfd.c" "switch_bd.c" "switch_pd.c" "switch_nat_int.h" "switch_internal.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-6.1.2.44/pkgsrc/switch/switchapi/src/" (23162 39364 705393 121000) "switch_pd_telemetry_INT.c" "switch_pd_ila.c" "switch_neighbor_int.h" "switch_rif_int.h" "switch_vlan_int.h" "switch_nhop_dump.c" "switch_hostif_int.h" "switch_l2_dump.c" "switch_vrf_int.h" "switch_telemetry_init.h" "switch_ver.h" "switch_ln_int.h" "switch_handle_int.h" "switch_rmac_int.h" "switch_nhop_int.h" "switch_api_rpc_server.cpp" "switch_pd_bfd.h" "switch_mirror.c" "switch_pd_mirror.c" "switch_mcast_int.h" "switch_device_int.h" "switch_table_int.h" "switch_config_dump.c" "switch_tunnel.c" "switch_vlan_dump.c" "switch_mirror_int.h" "switch_neighbor.c" "switch_hostif.c" "switch_port_int.h" "switch_pd_sr.c" "switch_buffer.c" "switch_pd_telemetry.h" "switch_telemetry_int.h" "switch_handle.c" "switch_nat.c" "switch_ila.c" "switch_neighbor_dump.c" "switch_packet.c" "switch_port_dump.c" "switch_packet_dump.c" "switch_pd_failover.h" "switch_pd_port.c" "switch_interface.c" "switch_pd.h" "switch_nhop.c" "switch_qos.c" "switch_ln.c" "switch_pd_tunnel.c" "switch_telemetry_INT.c" "switch_sflow_int.h" "switch_tunnel_int.h" "switch_pd_vlan.c" "switch_lag_dump.c" "switch_hostif_dump.c" "switch_label_int.h" "switch_pd_telemetry_postcard.c" "switch_handle_dump.c" "switch_meter_dump.c" "switch_bld_ver.h" "switch_config.c" "switch_sr.c" "switch_api.thrift" "switch_packet_int.h" "switch_wred_int.h" "switch_pd_wred.c" "switch_pd_common.h" "switch_ila_int.h" "switch_utils.c" "switch_l2.c" "switch_bd_int.h" "switch_pd_pktgen.c" "switch_queue.c" "switch_l2_int.h" "switch_rpf_int.h" "switch_sflow.c" "switch_vrf.c" "switch_qos_int.h" "switch_pd_mcast.c" "switch_bd_dump.c" "switch_pd_pktgen.h" "switch_acl.c" "switch_telemetry.c" "switch_mcast.c" "switch_interface_dump.c" "switch_acl_int.h" "switch_pd_lag.c" "switch_meter_int.h" "switch_stp_int.h" "switch_pd_queue.c" "switch_pd_qos.c" "switch_lag.c" "thrift_cache.h" "switch_vlan.c" "switch_meter.c" "switch_table.c" "switch_ln_dump.c" "switch_bfd_int.h" "switch_cli.c" "pre.h" "switch_rmac_dump.c" "switch_pd_l3.c" "switch_port.c" "switch_rif_dump.c" "switch_bfd.c" "switch_stp_dump.c" "switch_pd_meter.c" "switch_pd_common.c" "switch_l3_int.h" "switch_l3.c" "switch_lpm_int.h" "switch_pd_telemetry.c" "switch_buffer_int.h" "switch_failover.c" "switch_telemetry_mod.c" "switch_lpm.c" "switch_rpf_dump.c" "switch_wred.c" "switch_hash.c" "switch_failover_int.h" "switch_init.c" "switch_interface_int.h" "switch_pd_nat.c" "switch_pd_l2.c" "switch_rmac.c" "switch_pd_types.h" "switch_pd_nhop.c" "switch_pd_sflow.c" "switch_rif.c" "switch_rpf.c" "switch_id.c" "switch_device.c" "switch_queue_dump.c" "switch_pd_rmac.c" "switch_scheduler_int.h" "switch_table_dump.c" "switch_pd_buffer.c" "switch_log_int.h" "switch_config_int.h" "switch_log.c" "switch_telemetry_postcard.c" "switch_pd_bd.c" "switch_scheduler.c" "switch_pd_ppg.c" "switch_defines.h" "switch_hash_int.h" "switch_pd_neighbor.c" "switch_vrf_dump.c" "switch_telemetry_init.c" "switch_pd_acl.c" "switch_pd_failover.c" "switch_types_int.h" "switch_lag_int.h" "switch_device_dump.c" "switch_label.c" "switch_l3_dump.c" "switch_stp.c" "switch_pd_telemetry_mod.c" "switch_acl_dump.c" "switch_sr_int.h" "switch_queue_int.h" "switch_pd_bfd.c" "switch_bd.c" "switch_pd.c" "switch_nat_int.h" "switch_internal.h" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchsai/" (23272 64642 0 0) "autogen.sh" "README.md" "LICENSE" "submodules/" "Makefile.am" "Makefile.in" "../" "./" "json/" "src/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.82/pkgsrc/switch/switchapi/src/" (23205 52950 0 0) "switch_pd_ila.c" "switch_neighbor_int.h" "switch_rif_int.h" "switch_vlan_int.h" "switch_nhop_dump.c" "switch_hostif_int.h" "switch_l2_dump.c" "switch_vrf_int.h" "switch_ver.h" "switch_ln_int.h" "switch_handle_int.h" "switch_rmac_int.h" "switch_nhop_int.h" "switch_api_rpc_server.cpp" "switch_pd_bfd.h" "switch_mirror.c" "switch_pd_mirror.c" "switch_mcast_int.h" "switch_device_int.h" "switch_table_int.h" "switch_config_dump.c" "switch_tunnel.c" "switch_dtel.c" "switch_vlan_dump.c" "switch_mirror_int.h" "switch_neighbor.c" "switch_hostif.c" "switch_port_int.h" "switch_pd_sr.c" "switch_buffer.c" "switch_handle.c" "switch_nat.c" "switch_ila.c" "switch_neighbor_dump.c" "switch_packet.c" "switch_port_dump.c" "switch_packet_dump.c" "switch_pd_failover.h" "switch_pd_port.c" "switch_interface.c" "switch_pd.h" "switch_nhop.c" "switch_qos.c" "switch_ln.c" "switch_pd_tunnel.c" "switch_sflow_int.h" "switch_pd_dtel_mod.c" "switch_dtel_postcard.c" "switch_tunnel_int.h" "switch_pd_vlan.c" "switch_lag_dump.c" "switch_hostif_dump.c" "switch_label_int.h" "switch_pd_dtel_postcard.c" "switch_handle_dump.c" "switch_meter_dump.c" "switch_bld_ver.h" "switch_dtel_mod.c" "switch_config.c" "switch_sr.c" "switch_api.thrift" "switch_packet_int.h" "switch_dtel_int.h" "switch_wred_int.h" "switch_pd_wred.c" "switch_pd_common.h" "switch_ila_int.h" "switch_pd_hash.c" "switch_pd_dtel.h" "switch_utils.c" "switch_l2.c" "switch_bd_int.h" "switch_pd_pktgen.c" "switch_queue.c" "switch_l2_int.h" "switch_rpf_int.h" "switch_sflow.c" "switch_vrf.c" "switch_qos_int.h" "switch_pd_mcast.c" "switch_bd_dump.c" "switch_pd_pktgen.h" "switch_acl.c" "switch_tunnel_dump.c" "switch_mcast.c" "switch_interface_dump.c" "switch_acl_int.h" "switch_pd_lag.c" "switch_meter_int.h" "switch_stp_int.h" "switch_pd_queue.c" "switch_pd_qos.c" "switch_lag.c" "thrift_cache.h" "switch_vlan.c" "switch_cli_int.h" "switch_meter.c" "switch_table.c" "switch_ln_dump.c" "switch_bfd_int.h" "switch_cli.c" "pre.h" "switch_rmac_dump.c" "switch_pd_l3.c" "switch_port.c" "switch_rif_dump.c" "switch_bfd.c" "switch_stp_dump.c" "switch_pd_meter.c" "switch_pd_common.c" "switch_l3_int.h" "switch_l3.c" "switch_lpm_int.h" "switch_buffer_int.h" "switch_failover.c" "switch_lpm.c" "switch_rpf_dump.c" "switch_wred.c" "switch_hash.c" "switch_failover_int.h" "switch_init.c" "switch_interface_int.h" "switch_dtel_INT.c" "switch_pd_nat.c" "switch_pd_l2.c" "switch_rmac.c" "switch_pd_types.h" "switch_pd_nhop.c" "switch_pd_sflow.c" "switch_rif.c" "switch_rpf.c" "switch_id.c" "switch_device.c" "switch_queue_dump.c" "switch_pd_rmac.c" "switch_scheduler_int.h" "switch_table_dump.c" "switch_pd_buffer.c" "switch_log_int.h" "switch_config_int.h" "switch_log.c" "switch_pd_bd.c" "switch_scheduler.c" "switch_pd_ppg.c" "switch_defines.h" "switch_hash_int.h" "switch_pd_neighbor.c" "switch_vrf_dump.c" "switch_pd_acl.c" "switch_pd_failover.c" "switch_types_int.h" "switch_lag_int.h" "switch_device_dump.c" "switch_label.c" "switch_l3_dump.c" "switch_stp.c" "switch_pd_dtel.c" "switch_acl_dump.c" "switch_pd_dtel_INT.c" "switch_sr_int.h" "switch_queue_int.h" "switch_pd_bfd.c" "switch_bd.c" "switch_pd.c" "switch_nat_int.h" "switch_internal.h" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/src/pipe_mgr/" (23272 63939 0 0) "cuckoo_move.h" "pipe_mgr_meter_drv_workflows.h" "pipe_mgr_exm_tbl_mgr.h" "pipe_mgr_drv_intf.h" "pipe_mgr_ipc_intf.h" "cuckoo_move_init.c" "pipe_mgr_tof_p4parser.c" "pipe_mgr_learn.h" "pipe_mgr_stat_tbl_init.c" "pipe_mgr_stat_mgr_dump.h" "pipe_mgr_tof_pktgen_reg.c" "pipe_mgr_drv.c" "pipe_mgr_exm_ha.h" "pipe_mgr_exm_tbl_mgr.c" "pipe_mgr_tof_pktgen_reg.h" "pipe_mgr_sm.c" "pipe_mgr_tof_mc_intf.c" "pipe_mgr_hash_compute_json.h" "pipe_mgr_ctx_json_rmt_cfg.c" "pipe_mgr_select_tbl_transaction.c" "pipe_mgr_meter_ucli.c" "pipe_mgr_stful_ucli.h" "pipe_mgr_tbl.h" "pipe_mgr_tof_mc_intf.h" "pipe_mgr_hw_dump.h" "pipe_mgr_exm_llp_ha.c" "pipe_mgr_ctx_json_entry_format.c" "pipe_mgr_stat_ucli.h" "pipe_mgr_rmt_cfg.h" "pipe_mgr_exm_drv_workflows.c" "pipe_mgr_tcam_ha.h" "pipe_mgr_pktgen_reg.h" "pipe_mgr_alpm_hlp_ha.c" "pipe_mgr_pktgen_reg.c" "pipe_mgr_table_packing.h" "pipe_mgr_select_tbl.h" "pipe_mgr_stat_lrt.c" "cuckoo_move_init.h" "pipe_mgr_ctx_json_hash.c" "pipe_mgr_idle.c" "pipe_mgr_adt_mgr_init.c" "pipe_mgr_parde.c" "pipe_mgr_traces.c" "pipe_mgr_adt_tofino.c" "pipe_mgr_phy_mem_map.c" "pipe_mgr_exm_tbl_init.c" "pipe_mgr_select_tbl.c" "pipe_mgr_tof_parb.h" "pipe_mgr_phase0_tbl_mgr.c" "pipe_mgr_select_tbl_transaction.h" "pipe_mgr_tbl.c" "pipe_mgr_alpm.h" "pipe_mgr_tcam_tbl_ucli.c" "pipe_mgr_adt_mgr_ha_int.h" "pipe_mgr_exm_tof.h" "pipe_mgr_ibuf.c" "pipe_mgr_session.c" "pipe_mgr_tof_p4parser.h" "pipe_mgr_parse_ctx_json.h" "pipe_mgr_tcam.h" "pipe_mgr_session_int.h" "pipe_mgr_mau_tbl_dbg_counters.c" "pipe_mgr_tcam_hw.c" "pipe_mgr_meter_drv_workflows.c" "pipe_mgr_meter_mgr_int.h" "pipe_mgr_mirror_buffer.h" "pipe_mgr_select_ha_llp.c" "pipe_mgr_stat_tbl_mgr.c" "pkt_path_ucli.c" "pipe_mgr_mau_snapshot.c" "pipe_mgr_exm_transaction.c" "pipe_mgr_tcam.c" "pipe_mgr_tof_prsr.h" "pipe_mgr_ibuf.h" "pipe_mgr_exm_tbl_dump.h" "pipe_mgr_tof_mau_snapshot.h" "pipe_mgr_mau_tbl_dbg_counters.h" "pipe_mgr_exm_drv_workflows.h" "pipe_mgr_entry_format_json.c" "pipe_mgr_bitmap.h" "pipe_mgr_ctx_json_parser.c" "pipe_mgr_tcam_transaction.h" "pipe_mgr_pipeline_cfg_dnld.c" "pipe_mgr_alpm_ha.h" "pipe_mgr_stat_drv_workflows.c" "pipe_mgr_pktgen.c" "pipe_mgr_exm_hash.h" "pipe_mgr_tind.h" "pipe_mgr_dkm_json.c" "pipe_mgr_fake_rmt_cfg.c" "pipe_mgr_stat_ucli.c" "pkt_path_counter_display.c" "pipe_mgr_meter_tbl_init.h" "pipe_mgr_adt_drv_workflows.c" "pipe_mgr_int.h" "pipe_mgr_tof_ibuf.c" "pipe_mgr_exm_utest.c" "pipe_mgr_tof_dkm.c" "pipe_mgr_adt_transaction.h" "pipe_mgr_stat_mgr_int.h" "pipe_mgr_stat_drv_workflows.h" "pipe_mgr_parb.c" "xml/" "pipe_mgr_entry_format.c" "pipe_mgr_tcam_head_ptr.c_" "pipe_mgr_exm_transaction.h" "pipe_mgr_tof_dkm.h" "pipe_mgr_learn.c" "bf_pipe_mgr_mirror_buffer.c" "pipe_mgr_hash_compute.c" "pipe_mgr_tofino_cfg.c" "pipe_mgr_interrupt.c" "pipe_mgr_adt_ha_hlp.c" "pipe_mgr_dkm.c" "pipe_mgr_dkm_json.h" "pipe_mgr_exm_ucli.h" "pipe_mgr_exm_utest.h" "pipe_mgr_entry_format_json.h" "pipe_mgr_tof_ibuf.h" "pipe_mgr_tof_parb.c" "pipe_mgr_int.c" "pipe_mgr_stat_mgr_dump.c" "pipe_mgr_tof_interrupt.c" "pipe_mgr_ctx_json_dkm.c" "pipe_mgr_parde.h" "cuckoo_move.c" "pipe_mgr_tof_mau_snapshot.c" "pipe_mgr_idle_sweep.c" "pipe_mgr_exm_hash.c" "pipe_mgr_log.h" "pipe_mgr_idle.h" "pipe_mgr_mau_snapshot.h" "pipe_mgr_adt_ucli.c" "pipe_mgr_adt_mgr.c" "pipe_mgr_adt_mgr_dump.h" "pipe_mgr_meter_tbl_init.c" "pipe_mgr_stful_tbl_mgr.h" "pipe_mgr_alpm.c" "pipe_mgr_select_ha.h" "pipe_mgr_act_tbl.h" "pipe_mgr_exm_hlp_ha.c" "pipe_mgr_adt_mgr_dump.c" "pipe_mgr_tof_prsr.c" "pipe_mgr_tof_ebuf.h" "pipe_mgr_sel_tbl_ucli.c" "pipe_mgr_meter_mgr_txn.h" "pipe_mgr_ucli.c" "pipe_mgr_instr.h" "pipe_mgr_meter_mgr_txn.c" "pipe_mgr_hitless_ha.c" "pipe_mgr_interrupt.h" "pipe_mgr_adt_init.h" "pipe_mgr_drv.h" "pipe_mgr_phase0_tbl_mgr.h" "pkt_path_counter_display.h" "pipe_mgr_tcam_llp_ha.c" "pipe_mgr_tind.c" "pipe_mgr_mc_intf.c" "pipe_mgr_stful_tbl_mgr.c" "pipe_mgr_exm_tbl_init.h" "pipe_mgr_phy_mem_map.h" "pipe_mgr_p4parser.h" "pipe_mgr_adt_tofino.h" "pipe_mgr_hw_dump.c" "pipe_mgr_stat_tbl_init.h" "pipe_mgr_stats_tbl.h" "pipe_mgr_bitmap.c" "pipe_mgr_parb.h" "pipe_mgr_tof_ebuf.c" "pipe_mgr_exm_tbl_dump.c" "pipe_mgr_rmt_cfg_import.c" "pipe_mgr_stat_lrt.h" "pipe_mgr_adt_mgr_int.h" "pipe_mgr_stful_ucli.c" "pipe_mgr_tcam_hw.h" "pipe_mgr_exm_ucli.c" "pipe_mgr_move_list.h" "bf_packetpath_counter.c" "pipe_mgr_sm.h" "pipe_mgr_rmt_cfg.c" "pipe_mgr_hash_compute_json.c" "pipe_mgr_meter_ucli.h" "pipe_mgr_exm_tbl_mgr_int.h" "pipe_mgr_tofino_cfg.h" "pipe_mgr_meter_tbl_mgr.c" "pipe_mgr_mirror_buffer.c" "pipe_mgr_select_ha_hlp.c" "pipe_mgr_cli.c" "pipe_mgr_p4parser.c" "pipe_mgr_idle_api.h" "pipe_mgr_idle_ucli.c" "pipe_mgr_tcam_hlp_ha.c" "pipe_mgr_dkm.h" "pipe_mgr_meter_tbl.h" "pipe_mgr_ctx_json.h" "pipe_mgr_pktgen.h" "pipe_mgr_ipc_defs.h" "pipe_mgr_tof_interrupt.h" "bf_tofino_counters.c" "pipe_mgr_adt_drv_workflows.h" "pipe_mgr_clpm.c" "pipe_mgr_tof_pktgen.c" "pipe_mgr_intf.c" "pipe_mgr_tof_pktgen.h" "pipe_mgr_tof_deprsr.c" "pipe_mgr_idle_sweep.h" "pipe_mgr_adt_ucli.h" "pipe_mgr_hitless_ha.h" "pipe_mgr_tcam_transaction.c" "pipe_mgr_adt_transaction.c" "pipe_mgr_tof_deprsr.h" "packet_path_counters.py" "pipe_mgr_adt_ha_llp.c" "pipe_mgr_clpm.h" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/build/switch/p4-build/tofino/switch/src/" (23281 49400 923334 74000) ".deps/" "cscope.out" ".dirstamp" "libpd_la-pd.o" "libpdcli_la-pdcli.lo" "pdcli.c" "../" "libpd_la-pd.lo" "./" "pd.c" "libpdcli_la-pdcli.o" ".libs/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-syslibs/src/bf_sal/linux_usr/" (23272 64489 0 0) "bf_sys_log.c" "bf_sys_thread.c" "bf_sys_sal.c" "bf_sys_str.c" "bf_sys_dma_hugepages.c" "bf_sys_mem.c" "../" "./" "bf_sys_timer.c" "bf_sys_sem.c" "bf_sys_log_internal.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchapi/src/" (23272 64602 0 0) "switch_pd_ila.c" "switch_neighbor_int.h" "switch_rif_int.h" "switch_vlan_int.h" "switch_nhop_dump.c" "switch_hostif_int.h" "switch_l2_dump.c" "switch_vrf_int.h" "switch_ver.h" "switch_ln_int.h" "switch_handle_int.h" "switch_rmac_int.h" "switch_nhop_int.h" "switch_api_rpc_server.cpp" "switch_pd_bfd.h" "switch_mirror.c" "switch_pd_mirror.c" "switch_mcast_int.h" "switch_device_int.h" "switch_table_int.h" "switch_config_dump.c" "switch_tunnel.c" "switch_dtel.c" "switch_vlan_dump.c" "switch_mirror_int.h" "switch_neighbor.c" "switch_hostif.c" "switch_port_int.h" "switch_pd_sr.c" "switch_buffer.c" "switch_handle.c" "switch_nat.c" "switch_ila.c" "switch_neighbor_dump.c" "switch_packet.c" "switch_port_dump.c" "switch_packet_dump.c" "switch_pd_failover.h" "switch_pd_port.c" "switch_interface.c" "switch_pd.h" "switch_nhop.c" "switch_qos.c" "switch_ln.c" "switch_pd_tunnel.c" "switch_sflow_int.h" "switch_pd_dtel_mod.c" "switch_dtel_postcard.c" "switch_tunnel_int.h" "switch_pd_vlan.c" "switch_lag_dump.c" "switch_hostif_dump.c" "switch_label_int.h" "switch_pd_dtel_postcard.c" "switch_handle_dump.c" "switch_meter_dump.c" "switch_bld_ver.h" "switch_dtel_mod.c" "switch_config.c" "switch_sr.c" "switch_api.thrift" "switch_packet_int.h" "switch_dtel_int.h" "switch_wred_int.h" "switch_pd_wred.c" "switch_pd_common.h" "switch_ila_int.h" "switch_pd_hash.c" "switch_pd_dtel.h" "switch_utils.c" "switch_l2.c" "switch_bd_int.h" "switch_pd_pktgen.c" "switch_queue.c" "switch_l2_int.h" "switch_rpf_int.h" "switch_sflow.c" "switch_vrf.c" "switch_qos_int.h" "switch_pd_mcast.c" "switch_bd_dump.c" "switch_pd_pktgen.h" "switch_acl.c" "switch_tunnel_dump.c" "switch_mcast.c" "switch_interface_dump.c" "switch_acl_int.h" "switch_pd_lag.c" "switch_meter_int.h" "switch_stp_int.h" "switch_pd_queue.c" "switch_pd_qos.c" "switch_lag.c" "thrift_cache.h" "switch_vlan.c" "switch_cli_int.h" "switch_meter.c" "switch_table.c" "switch_ln_dump.c" "switch_bfd_int.h" "switch_cli.c" "pre.h" "switch_rmac_dump.c" "switch_pd_l3.c" "switch_port.c" "switch_rif_dump.c" "switch_bfd.c" "switch_stp_dump.c" "switch_pd_meter.c" "switch_pd_common.c" "switch_l3_int.h" "switch_l3.c" "switch_lpm_int.h" "switch_buffer_int.h" "switch_failover.c" "switch_lpm.c" "switch_rpf_dump.c" "switch_wred.c" "switch_hash.c" "switch_failover_int.h" "switch_init.c" "switch_interface_int.h" "switch_dtel_INT.c" "switch_pd_nat.c" "switch_pd_l2.c" "switch_rmac.c" "switch_pd_types.h" "switch_pd_nhop.c" "switch_pd_sflow.c" "switch_rif.c" "switch_rpf.c" "switch_id.c" "switch_device.c" "switch_queue_dump.c" "switch_pd_rmac.c" "switch_scheduler_int.h" "switch_table_dump.c" "switch_pd_buffer.c" "switch_log_int.h" "switch_config_int.h" "switch_log.c" "switch_pd_bd.c" "switch_scheduler.c" "switch_pd_ppg.c" "switch_defines.h" "switch_hash_int.h" "switch_pd_neighbor.c" "switch_vrf_dump.c" "switch_pd_acl.c" "switch_pd_failover.c" "switch_types_int.h" "switch_lag_int.h" "switch_device_dump.c" "switch_label.c" "switch_l3_dump.c" "switch_stp.c" "switch_pd_dtel.c" "switch_acl_dump.c" "switch_pd_dtel_INT.c" "switch_sr_int.h" "switch_queue_int.h" "switch_pd_bfd.c" "switch_bd.c" "switch_pd.c" "switch_nat_int.h" "switch_internal.h" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/switchapi/" (23272 64642 0 0) "include/" "README.md" "Makefile.am" "scripts/" "Makefile.in" "xml/" "../" "./" "Doxyfile" "tests/" "src/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/p4src/includes/" (23272 64602 0 0) "headers.p4" "p4_pktgen.h" "cpu_reason_codes.h" "tofino.p4" "p4_table_sizes.h" "p4features.h" "defines.p4" "parser.p4" "../" "dtel_parser.p4" "./" "drop_reason_codes.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/switch/" (23273 34563 597092 828000) "switchsai/" "autogen.sh" "configure.ac" "README.md" "targets/" "third-party/" "config.sub" "depcomp" "p4src/" "m4/" "bmv2-tofino/" "Makefile.am" "switchapi/" "README" "missing" "Makefile.in" "tofino/" "config.guess" ".clang-format" "install_switch_deps.sh" "configure" "doc/" "bmv2/" "RELEASE" "../" "py-compile" "autom4te.cache/" "./" "config.h.in" "aclocal.m4" "p4-build/" ".travis.yml" "ltmain.sh" "ptf-tests/" "install-sh" "compile")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/" (23274 28263 134615 379000) "bf-platforms/" "p4c-bmv2/" "p4-compilers/" "switch/" "cscope.out" "ptf-modules/" "bf-utils/" "p4-examples/" "cscope.files" "bmv2/" "../" "bf-drivers/" "./" "tofino-model/" "bf-diags/" "p4-build/" "bf-syslibs/" "tofinobm/" "p4-hlir/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/" (23273 42702 933623 762000) "pkgsrc/" "run_tofino_model.sh" "run_p4_tests.sh" "run_bmv2_drivers.sh" "install/" "build/" "bf-sde-7.0.2.97.manifest" "install_thrift_deps.sh" "run_bfshell.sh" "run_bmv2.sh" "logs/" "install_ptf_deps.sh" "README" "extract_all.sh" "run_switchd.sh" "../" "packages/" "install_bin_pkgs.sh" "install_min_deps.sh" "./")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/konsole/20171220/" (23266 62127 173191 714000) "desktop4_5" "desktop4_3" "desktop5_1" "../" "desktop4_2" "./" "desktop1_1" "desktop4_1" "desktop4_6" "desktop4_4" "desktop2_1" "desktop3_1")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/a12/" (23169 13269 255398 382000) "port_config.ini" "port_config_20180206.ini" "port_config_25Gofficial.ini" "../" "port_config_25Gspecial.ini" "ali_config" "./" "minigraph.xml" "config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/L3_forwarding_drop_miss_flood_error/" (23067 30037 859455 471000) "../" "./" "bfnsdk_1.0.0_amd64_SDE61015-fecon-patched-20171127.deb")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/liquid_cooling_oob_down/syslog_dir/" (23279 54599 206245 575000) "syslog.19" "syslog.18" "syslog.9" "syslog.17" "syslog.13" "syslog.16" "syslog.4" "syslog.14" "syslog.1" "kernel_log" "syslog.15" "syslog.10" "syslog.8" "syslog.20" "syslog.5" "syslog.11" "../" "./" "syslog.2" "syslog.7" "syslog_cat" "syslog" "syslog.12" "syslog.6" "syslog.3")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/liquid_cooling_oob_down/" (23279 54069 185348 760000) "syslog_dir/" "syslog.tar" "../" "./" "syslogs.tar.gz")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/issues/" (23279 53772 908815 64000) "bgp_big_packet_flapping/" "orchagent_crash_0307/" "crash_during_server_install_liquid_cooling/" "nhop_not_resolved/" "bgp_flapping/" "hostif_state_and_port_state_not_sync/" "../" "./" "liquid_cooling_port_state_out_of_sync/" "liquid_cooling_oob_down/" "link_issue/" "crash_during_server_install/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/a11/" (23215 8583 718742 728000) "port_config.ini" "port_config_20180206.ini" "port_config_25Gofficial.ini" "../" "port_config_25Gspecial.ini" "ali_config" "./" "minigraph.xml" "config_db.json")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_kpkt/" (23272 63939 0 0) "bf_kdrv.c" "bf_kpkt_sysfs.c" "bf_kpkt_txrx.c" "Makefile" "bf_kpkt_timer.c" "../" "bf_kpkt_net.c" "./" "bf_kpkt_stubs.c" "bf_kpkt_priv.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_knet/" (23273 42626 505220 240000) "bf_knet.c" "Makefile" "../" "./" "bf_knet_priv.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/bf_kdrv/" (23273 42526 63375 739000) "bf_kdrv.c" "Makefile" "Makefile.standalone" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/kdrv/" (23272 64486 0 0) "bf_knet_mod_load" "bf_uio_mod_load" "bf_uio/" "bf_knet_mod_unload" "bf_kpkt/" "bf_kdrv_mod_unload" "bf_kdrv_mod_load" "bf_tun/" "bf_knet/" "bf_tun_mod_unload" "Makefile.am" "bf_uio_mod_unload" "Makefile.in" ".clang-format" "bf_kpkt_mod_unload" "bf_kpkt_mod_load" "../" "./" "bf_kdrv/" "bf_tun_mod_load")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.97/pkgsrc/bf-drivers/" (23273 34561 439053 258000) "libavago.i686.a" "include/" "autogen.sh" "configure.ac" "cint/" "libavago.i686.so" "third-party/" "config.sub" "depcomp" "m4/" "pdfixed_thrift/" "Makefile.am" "README" "libavago.x86_64.la" "missing" "Makefile.in" "config.guess" "kdrv/" "libavago.x86_64.so" "configure" "doc/" "RELEASE" "libavago.i686.la" "../" "py-compile" "autom4te.cache/" "./" "pd_api_gen/" "config.h.in" "aclocal.m4" "bf_switchd/" "ltmain.sh" "install-sh" "compile" "src/" "libavago.x86_64.a")
+
+ ("/home/dapeng/bf/bf_jessie/" (23273 34521 283316 959000) "bf-sde-7.0.2.75_spine/" "#int_report#" "neigh-derived_bgp-learnt_route_temp_fix_switchapi_diff" "bf-sde-7.0.2.75_leaf/" "bf-sde-7.0.1.61_spine/" "bf-sde-7.0.2.97.tgz" "diff_bf-platform_213_217" "diff_pkt_mgr_5_6" "diff_switchsai_217_225" "diff_switchsai_213_217" "bf-sde-7.0.0.10/" "neigh-derived_bgp-learnt_route_temp_fix_switchsai_diff" "diff_switchapi" "diff_switchsai_208_213" "bf-sde-5.0.0.229-inttransit/" "int_report" "diff_bfdriver_226_229" "diff_switchapi_217_225" "bf-sde-7.0.2.82/" "diff_neighbor-derived_bgp-learnt_conflict_switchapi" "bf-sde-7.0.2.75/" "bf-sde-5.0.0.225/" "bf-sde-6.1.2.44/" "bf-sde-5.0.0.226-intep/" "bf-sde-7.0.1.61/" "report" "bf-sde-5.0.0.229-intep/" "diff_mc_mgr" "bf-sde-7.0.2.97/" "diff_icmp_redirect" "../" "diff_p4_213_217" "switchsai_diff" "diff_bf_drivers_70275_70282" "diff_switchsai" "bf-sde-5.0.0.226/" "./" "bf-sde-7.0.0.10_leaf/" "diff_miss_flood" "bf-sde-7.0.2.82_spine/" "bf-sde-7.0.0.10_spine/" "diff_switchapi_5_6" "diff_bf-driver_213_217" "diff_bf_platforms_70275_70282" "bf-sde-7.0.1.61_leaf/" "diff_switchapi_226_229" "diff_bgp_connection_broken" "diff_neighbor-derived_bgp-learnt_conflict_switchsai")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/p4src/includes/" (23234 56448 0 0) "headers.p4" "p4_pktgen.h" "cpu_reason_codes.h" "tofino.p4" "p4_table_sizes.h" "p4features.h" "defines.p4" "parser.p4" "../" "dtel_parser.p4" "./" "drop_reason_codes.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/SAI/inc/" (23234 56455 0 0) "saimcastfdb.h" "saiswitch.h" "saihostif.h" "saibridge.h" "saiqueue.h" "saiwred.h" "saivirtualrouter.h" "saiipmcgroup.h" "saiipmc.h" "saisamplepacket.h" "saistatus.h" "sairoute.h" "sairouterinterface.h" "saidtel.h" "saineighbor.h" "saischeduler.h" "saimirror.h" "sail2mc.h" "saihash.h" "saifdb.h" "saivlan.h" "sainexthopgroup.h" "../" "./" "saistp.h" "sai.h" "saiobject.h" "saiqosmap.h" "sairpfgroup.h" "sail2mcgroup.h" "saiacl.h" "saipolicer.h" "sailag.h" "saischedulergroup.h" "saiport.h" "saitypes.h" "saitunnel.h" "sainexthop.h" "saiudf.h" "saibuffer.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/SAI/" (23234 56455 0 0) "README.md" "inc/" "Makefile" "stub/" "LICENSE.txt" "doc/" "../" "meta/" "./" "test/" "Doxyfile")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/submodules/" (23234 56448 0 0) "SAI/" ".clang-format" "../" "./")
+
+ ("/home/dapeng/sonic/" (23189 23178 878034 474000) "syslog_cannotping" "sonic-barefoot-0803-6-v103-swss-diff.bin" "syslog_portdown_afterinstall" "team_portchannel10_bfn.conf" "sonic-barefoot-0803-1.bin" "sonic-barefoot-0803-3.bin" "official_sonic_slave_updated_dockerfile" "sonic_buildimage_bfn/" "sonic_mgmt/" "syslog_217_insane_bootup_default_minigraph" "int.pcap" "pipe_dump" "snap_arp_unicast_request_accton_3-0_cpu_ingress" "onie-support" "0002-support-receive-BOOTREPLY-on-fallback-interface.patch" "monitor_config.json" "syslog_vlan" "sonic_buildimage_official/" "sonic-barefoot-0803-4.bin" "syslog-0803-7-start" "syslog_1" "sonic-barefoot-0803-2.bin" "int-spine-1.py" "int_poc_5flow.pcap" "sonic-slave-dapeng.tar" "sonic-barefoot-0728-3.bin" "network_topology.json" "sonic_files_tmpdir/" "int-leaf-1.py" "SAI/" "syslog_213_sane_bootup_default_minigraph" "team_portchannel_bfn.conf" "portsorch.cpp" "portsorch_009c862.cpp" "syslog_kill_team_crash" "sonic_images-config_files/" "int_poc_tcp.pcap" "system_acl_ansible" "brcm_sai/" "Dockerfile" "onie-recovery-x86_64-accton_wedge100bf_32x-r0.iso" "sonic-slave_Dockerfile" "syslog_portdown" "teamd_30030.log" "../" "syslog_4" "sonic-barefoot-0803-6-v103.bin" "sonic_buildimage_gitlab/" "./" "diff_with_009c862" "sonic_bfn_diff/" "Dockerfile_20170705" "gitlab_sonic_slave_updated_dockerfile" "teamd.log" "int-leaf-2.py" "sonic-barefoot-0803-8-v103.bin" "minigraph_topo_2_no_lag.xml" "sonic-broadcom-v0.1.0.bin" "sonic-broadcom-20170831-dailybuild.bin" "diffs_archive/" "int_new_flows.pcap" "sonic-barefoot-0728-2.bin" "sonic-barefoot-0803-7-v103.bin" "dhcrelay" "syslog" "int_poc_1flow.pcap" "pha-all/" "sonic-broadcom-v1.2.2.bin")
+
+ ("/home/dapeng/" (23264 47096 247460 420000) "a22_syslog" "test.py" "bfnsdk_1.0.0_amd64-7fa377-20171220-with_bd_map.deb" "4446.patch" ".ICEauthority" ".wget-hsts" "sonic-cli-1.0.0-Linux.deb" "tmpconf" "Music/" "swss_1.0.0_amd64.deb" "same_vlan_different_subnet_1_0_to_1_1_ingress" "dhcp1.pcap" "bgp_tcp_syn_23-0_to_cpu_ingress" ".ssh/" ".local/" "minigraph_topo1_1.xml" "system_acl_bf_acction-sde60" "mod_report.pcap" "port_config.ini" "Templates/" "report.pcap" "20171221-4176-felix-tx_dis.patch" "int.pcap" "dhcp.pcap" "Downloads/" "tmpdiff" "20180111_4513.diff" "sonic-broadcom-20170705.bin" "a11_syslog" "liquid_cooling_ipv4_fib" "tmpfile_bgp" "syncd_1.0.0_amd64.deb" "bgp.service" "a11.pcap" "a42_syslog" "pltfm_bd_map_ingrasys_s9180.h" ".lesshst" ".config/" "monitor_config.json" "int_report" "set_sde.bash" "x86_64-ingrasys_s9180_32x-r0/" "a42_syncd.1514476375.25.core.gz" "a42_bf_drivers.log" ".bash_history" "4706.diff" "30006_teamd_log" "dhcp_relay_syslog" "Desktop/" "intpkt.pcap" ".akrc" "syncd-rpc_1.0.0_amd64.deb" "4242.diff" "tmpf" "5236.diff" "bfnsdk_1.0.0_amd64-accton-rdmaMaxPPG.deb" "iperf-2.0.8-1.el7.x86_64.rpm" "sde208/" "bf_pltfm_pm_porting.c" "patch_series/" "diff_82_86" "arp_17-0_to_cpu_ingress" "portsorch.cpp" ".emacs.d/" "Videos/" "sde213/" "qemu_kvm_gdisk/" ".gitconfig" "sonic/" "20180116-acl-range-fix-4608-glow.patch" "ingrasys-s9180-32x-bf-sde-7.0.2.75-v1.7.3.patch" "ingrasys-s9180-32x-bf-sde-6.1.2.44-v1.0.13_new.patch" ".cache/" "5236-update.diff" ".bash_logout" "a41_bf_drivers.log" ".esd_auth" "a11_bf_drivers.log" "pkt_gen_verify.py" "dhcp_client.pcap" "tmpdir/" "ping.pcap" "bfnsdk_1.0.0_amd64-ingrasys-rdmaMaxPPG.deb" "bfnsdk_1.0.0_amd64.deb" "sonic-barefoot-master-bf_accton_ingrasys-225_accton-fecon-20171101.bin" "Documents/" "Pictures/" "liquid_cooling_to_cpu_ingress" "drv-1295.patch" "counter_link_down_issue.diff" "docker-orchagent-bfn.gz" "ecmp_fail_deactivate_no_resilient_hash.patch" "patch_swss_saredis.sh" "tmp" "sonic_barefoot_bf_ingrasys_prebuilt225_ingrasys.log" "dtel_command.py" "bfnsdk_1.0.0_amd64_SDE61245-sdevm-a4d276-20180208-ingrasys.deb" ".bash_profile" "tmpfile" "minigraph.xml" "bfnsdk_1.0.0_amd64-f1b212-20171221-with_bd_map.deb" "bf/" "bfnsdk_1.0.0_amd64_61237_10us_s9180.deb" "avl_bgp_flapping/" "ingrasys-s9180-32x-bf-sde-6.1.2.44-v1.0.12_old.patch" "sde_build.sh" "ubuntu-16.04.3-server-amd64.iso" "30036_Ethernet12.pcap" "minigraph_bf.xml" ".bashrc" "sonic-barefoot-wedge32-2.bin" "bf_pltfm_pm_intf.c" ".pki/" "originalpkt.pcap" "isc_dhcp/" "30005_teamd_log" "sde61247_s9180_platorm_patch" "a12_bf_drivers.tar.gz" "syncd-rpc-dbg_1.0.0_amd64.deb" "debian_jessie_8_9.xml" "netboot.tar.gz" "dtel_config.py" "op_output" "bf-diff1" "ubuntu-16.04.2-desktop-amd64.iso" "Public/" "table_placement.html" "sonic-barefoot-master-bf_ingrasys-225_ingrasys.bin" "dhcrelay_bak_20170704" "30032_Vlan1000.pcap" "bfnsdk_1.0.0_amd64-ingrasys-rdmaMaxPPG1.deb" "ingrasys-s9180-32x-bf-sde-7.0.2.82-v1.7.4.patch" "bfnsdk_1.0.0_amd64-7fa377-20171220.deb" "bfnsdk_1.0.0_amd64-accton-rdmaMaxPPG1.deb" "tmp.sh" "bgp.sh" ".mozilla/" "bf-sde-7.0.0.10.tgz" "../" "./")
+
+ ("/home/" (23025 16659 748403 850000) "docker_runtime/" "try/" "lost+found/" "dapeng/" "../" "./")
+
+ ("/root/" (23265 35282 671450 854000) ".esd_auth" "int_sink_dns_egress_8_part0" "int_sink_2-0_1-0_egress" "Videos/" "report3.pcap" ".backups/" "int_mod_1-0_2-0_ingress" "#int_mod_1-0_2-0_egress#" "arp_packet_ingress" "flow_state.png" "int_datapacket_part5" "report6.pcap" "dhcp_relay_log" "Music/" ".bashrc" ".tmux/" "syslog.1" "Pictures/" "arp_packet_egress" "int_packet" "dhcp_relay.pcap" "tcp.pcap" "str-s8900-54xc-01.xml" "int_sink_dns_egress_9_part11" ".gitconfig" "report_on_drop.png" ".pki/" "int_wred_egress_m" "int_report_3" "Templates/" "report4.pcap" "int_sink_2-0_1-0_ingress" "bf_driver" "int_packet_2" "30005" ".mozilla/" "tramp.ae975db03263ade9fb952afc2229cf531868f8c0" ".Xauthority" ".bash_history" "int_datapacket_part1" "int_mod_2-0_1-0_ingress" "int_sink_dns_egress_9_part2" "int_moddod_data_packet_1" "int_sink_dns_egress_2" "syslog" "int_sink_dns_egress_9_part7" "syslog_syncd_1" "int_sink_dns_egress_8" "switch_p4_krambn/" "bf/" "test" "tmpscript.py" "congestion.png" "report.pcap" "int_wred_cap_egress" ".ICEauthority" "int_report_2" ".tmux.conf" ".gem/" "test.tar" ".lesshst" ".gnupg/" "tmp" "INT.pcapng" "system_acl_old" ".config/" "int_datapacket_part2" "int_sink_dns_egress_9_part1" "int_transit_1-0_to_2-0_egress" "syslog_0803/" ".tmuxinator/" "int_datapacket" "30006_2" ".bash_profile" "int_sink_dns_egress_6" ".emacs.d/" "int_sink_2-0_1-0_egress_1" "emacs_config/" "typescript_egress" "int_qdod_data_packet_2" "int_sink_dns_egress_9_1" "int_mod_1-0_2-0_egress" "int_sink_dns_egress_9_part4" "int_mod_dod_ingress" "int_sink_dns_egress_9_part3" "report5.pcap" "INT1.pcap" "int_sink_dns_egress_5" "pa.log" "int_sink_dns_egress_9_part9" ".esmtp_queue/" "30005_2" "Desktop/" "int_report" ".vnc/" ".bash_logout" ".ssh/" "int_moddod_data_packet_2" "12-switch.make.log" ".akrc" "int_datapacket_part3" "du" "ubuntu-16.04.2-desktop-amd64.iso" "E15361079-LicenseFile.lic" "report2.pcap" "int_sink_1-0_2-0_egress" "portstat" "dump_table" "int_sink_1-0_2-0_ingress" "int_sink_dns_egress_4" "syslog.3.gz" "emacs_config.tar.gz" "int_transit_1-0_2-0_ingress" "int_sink_dns_egress_9_part6" ".docker/" "int_sink_dns_egress_9_2" "int_sink_dns_egress_9_part14" "report7.pcap" "bfnsdk_amd64_SDE61247_050c396_accton.deb" "syslog.2.gz" "int_sink_dns_egress_9_part5" "int_sink_6-0_1-0_egress" ".wget-hsts" "typescript" "INT1" "int_sink_dns_egress_9" ".tcshrc" "int_sink_dns_egress_9_part8" "arp_packet" "payload.tar" "int_source_1-0_2-0_ingress" "my_echo.sh" "int_datapacket_part0" "int_datapacket_part4" "Public/" "tcp08.pcap" "Downloads/" "int_sink_dns_egress_7" "int_report_1" "Documents/" ".cache/" ".local/" "int_sink_dns_egress_9_part12" "emacs_config_20180228_bak/" "int_packet_ingress" "anaconda-ks.cfg" ".cshrc" "int_sink_dns_egress_3" ".dbus/" "int_qdod_data_packet_1" "int_moddod_data_packet" "int_packet_egress" "system_acl" "int_wred_cap_egress_4" "syslog_syncd" "switch_p4/" "tmpfile" ".fltk/" ".gvfs/" "int_wred_cap_egress_3" "int_sink_dns_egress_9_part13" "docker-orchagent-bfn.gz" "int_sink_dns_egress" "int_sink_dns_egress_9_part0" "int_sink_dns_egress_9_part10" "int_wred_cap_egress_2" "30006" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/bf-drivers/src/bf_pm/" (23234 56042 0 0) "bf_pm.h" "pm_intf.h" "pm_log.h" "pm_task.h" "bf_pm_ucli.c" "pm.h" "../" "./" "pm.c" "bf_pm_intf.c" "pm_task.c")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-6.1.2.44/" (23162 39366 622427 79000) "pkgsrc/" "run_tofino_model.sh" "run_p4_tests.sh" "run_bmv2_drivers.sh" ".git/" "bf-sde-6.1.2.44.manifest" "install_thrift_deps.sh" "set_sde.bash" "run_bmv2.sh" "install_ptf_deps.sh" ".gitignore" "README" "extract_all.sh" "run_switchd.sh" "tools/" "../" "packages/" "install_bin_pkgs.sh" "install_min_deps.sh" "./" "sde_build.sh" "readme_ali")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchapi/" (23234 56478 0 0) "include/" "README.md" "Makefile.am" "scripts/" "Makefile.in" "xml/" "../" "./" "Doxyfile" "tests/" "src/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchapi/src/" (23234 56448 0 0) "switch_pd_ila.c" "switch_neighbor_int.h" "switch_rif_int.h" "switch_vlan_int.h" "switch_nhop_dump.c" "switch_hostif_int.h" "switch_l2_dump.c" "switch_vrf_int.h" "switch_ver.h" "switch_ln_int.h" "switch_handle_int.h" "switch_rmac_int.h" "switch_nhop_int.h" "switch_api_rpc_server.cpp" "switch_pd_bfd.h" "switch_mirror.c" "switch_pd_mirror.c" "switch_mcast_int.h" "switch_device_int.h" "switch_table_int.h" "switch_config_dump.c" "switch_tunnel.c" "switch_dtel.c" "switch_vlan_dump.c" "switch_mirror_int.h" "switch_neighbor.c" "switch_hostif.c" "switch_port_int.h" "switch_pd_sr.c" "switch_buffer.c" "switch_handle.c" "switch_nat.c" "switch_ila.c" "switch_neighbor_dump.c" "switch_packet.c" "switch_port_dump.c" "switch_packet_dump.c" "switch_pd_failover.h" "switch_pd_port.c" "switch_interface.c" "switch_pd.h" "switch_nhop.c" "switch_qos.c" "switch_ln.c" "switch_pd_tunnel.c" "switch_sflow_int.h" "switch_pd_dtel_mod.c" "switch_dtel_postcard.c" "switch_tunnel_int.h" "switch_pd_vlan.c" "switch_lag_dump.c" "switch_hostif_dump.c" "switch_label_int.h" "switch_pd_dtel_postcard.c" "switch_handle_dump.c" "switch_meter_dump.c" "switch_bld_ver.h" "switch_dtel_mod.c" "switch_config.c" "switch_sr.c" "switch_api.thrift" "switch_packet_int.h" "switch_dtel_int.h" "switch_wred_int.h" "switch_pd_wred.c" "switch_pd_common.h" "switch_ila_int.h" "switch_pd_hash.c" "switch_pd_dtel.h" "switch_utils.c" "switch_l2.c" "switch_bd_int.h" "switch_pd_pktgen.c" "switch_queue.c" "switch_l2_int.h" "switch_rpf_int.h" "switch_sflow.c" "switch_vrf.c" "switch_qos_int.h" "switch_pd_mcast.c" "switch_bd_dump.c" "switch_pd_pktgen.h" "switch_acl.c" "switch_tunnel_dump.c" "switch_mcast.c" "switch_interface_dump.c" "switch_acl_int.h" "switch_pd_lag.c" "switch_meter_int.h" "switch_stp_int.h" "switch_pd_queue.c" "switch_pd_qos.c" "switch_lag.c" "thrift_cache.h" "switch_vlan.c" "switch_cli_int.h" "switch_meter.c" "switch_table.c" "switch_ln_dump.c" "switch_bfd_int.h" "switch_cli.c" "pre.h" "switch_rmac_dump.c" "switch_pd_l3.c" "switch_port.c" "switch_rif_dump.c" "switch_bfd.c" "switch_stp_dump.c" "switch_pd_meter.c" "switch_pd_common.c" "switch_l3_int.h" "switch_l3.c" "switch_lpm_int.h" "switch_buffer_int.h" "switch_failover.c" "switch_lpm.c" "switch_rpf_dump.c" "switch_wred.c" "switch_hash.c" "switch_failover_int.h" "switch_init.c" "switch_interface_int.h" "switch_dtel_INT.c" "switch_pd_nat.c" "switch_pd_l2.c" "switch_rmac.c" "switch_pd_types.h" "switch_pd_nhop.c" "switch_pd_sflow.c" "switch_rif.c" "switch_rpf.c" "switch_id.c" "switch_device.c" "switch_queue_dump.c" "switch_pd_rmac.c" "switch_scheduler_int.h" "switch_table_dump.c" "switch_pd_buffer.c" "switch_log_int.h" "switch_config_int.h" "switch_log.c" "switch_pd_bd.c" "switch_scheduler.c" "switch_pd_ppg.c" "switch_defines.h" "switch_hash_int.h" "switch_pd_neighbor.c" "switch_vrf_dump.c" "switch_pd_acl.c" "switch_pd_failover.c" "switch_types_int.h" "switch_lag_int.h" "switch_device_dump.c" "switch_label.c" "switch_l3_dump.c" "switch_stp.c" "switch_pd_dtel.c" "switch_acl_dump.c" "switch_pd_dtel_INT.c" "switch_sr_int.h" "switch_queue_int.h" "switch_pd_bfd.c" "switch_bd.c" "switch_pd.c" "switch_nat_int.h" "switch_internal.h" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/p4src/" (23254 57572 61949 116000) "wred.p4" "hashes.p4" "pktgen.p4" "ipv4.p4" "README.md" "openflow.p4" "dtel.p4" "ipv6.p4" "cscope.out" "multicast.p4" "acl.p4" "openflow_mapping/" "rewrite.p4" "failover.p4" "nat.p4" "fabric.p4" "dtel_postcard.p4" "p4_files.am" "mirror.p4" ".clang-format" "egress_filter.p4" "l3.p4" "cscope.files" "meter.p4" "bfd.p4" "../" "switch_config.p4" "flowlet_bmv2.p4" "./" "nexthop.p4" "switch.p4" "dtel_int.p4" "sr.p4" "includes/" "port.p4" "qos.p4" "sflow.p4" "tunnel.p4" "dtel_int_over_l4.p4" "l2.p4" "flowlet.p4" "security.p4" "ila.p4")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/src/" (23234 56448 0 0) "switch_sai_rpc_server.cpp.bfn" "sailag.c" "saiport.c" "saiobject.c" "saibuffer.c" "saistp.c" "sail2mc.c" "sairouterinterface.c" "saihostif.c" "switch_sai_rpc_server.cpp" "saidtel.c" "saischedulergroup.c" "saineighbor.c" "saihash.c" "port.cfg.sample" "saiudf.c" "sai_bflib.c" "saiipmc.c" "saivlan.c" "saiqosmap.c" "sairoute.c" "saiqueue.c" "saiacl.c" "sainexthopgroup.c" "saiswitch.c" "switch_sai.thrift.bfn" "sainexthop.c" "saipolicer.c" "../" "saibridge.c" "./" "sai.c" "switch_sai.thrift" "saimirror.c" "saiwred.c" "saivirtualrouter.c" "sai-param-check.c" "saiutils.c" "saiinternal.h" "saifdb.c" "saischeduler.c")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/switchsai/" (23234 56479 0 0) "autogen.sh" "README.md" "LICENSE" "submodules/" "Makefile.am" "Makefile.in" "../" "./" "json/" "src/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/switch/" (23254 47222 682582 908000) "switchsai/" "autogen.sh" "configure.ac" "README.md" "targets/" "third-party/" "config.sub" "depcomp" "p4src/" "m4/" "bmv2-tofino/" "Makefile.am" "switchapi/" "README" "missing" "Makefile.in" "tofino/" "config.guess" ".clang-format" "install_switch_deps.sh" "configure" "doc/" "bmv2/" "RELEASE" "../" "py-compile" "autom4te.cache/" "./" "config.h.in" "aclocal.m4" "p4-build/" ".travis.yml" "ltmain.sh" "ptf-tests/" "install-sh" "compile")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/pkgsrc/" (23254 58194 594060 111000) "bf-platforms/" "p4c-bmv2/" "p4-compilers/" "switch/" "cscope.out" "ptf-modules/" "bf-utils/" "p4-examples/" "cscope.files" "bmv2/" "../" "bf-drivers/" "./" "tofino-model/" "bf-diags/" "p4-build/" "bf-syslibs/" "tofinobm/" "p4-hlir/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.86/" (23254 53935 451170 750000) "pkgsrc/" "run_tofino_model.sh" "run_p4_tests.sh" "run_bmv2_drivers.sh" "install/" "build/" "install_thrift_deps.sh" "run_bfshell.sh" "run_bmv2.sh" "logs/" "install_ptf_deps.sh" "README" "extract_all.sh" "bf-sde-7.0.2.86.manifest" "run_switchd.sh" "../" "packages/" "install_bin_pkgs.sh" "install_min_deps.sh" "./")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/" (23248 29183 131759 641000) "p2/" "a21/" "p4/" "asw_port_config.ini" "psw_port_config.ini" "avl_a12_config_db.json" "liquid_cooling_a11_config_db.json" "avl_a11_config_db.json" "sort_json.py" "avl_p2_config_db.json" "../" "avl_p2_ali_config" "p1/" "./" "tmpfile" "avl_a11_ali_config" "p3/" "a11/" "config_gen/" "a22/" "issues/" "liquid_cooling_ali_config" "a12/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/a11/" (23248 27549 478697 122000) "port_config.ini" "../" "ali_config" "./" "config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/templates/" (23248 27439 690746 612000) "asw_ali_config.j2" "psw_ali_config.j2" "../" "./" "asw_config_db.json.j2" "psw_config_db.json.j2")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/a12/" (23248 21262 786023 775000) "port_config.ini" "../" "ali_config" "./" "config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/" (23248 10481 516636 51000) "settings.py" "config_gen.py" "templates/" "../" "./" "settings.pyc" "output/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/a11/" (23118 56076 446518 413000) "port_config.ini" "port_config.ini.rsfec" "../" "port_config.ini.nonefec" "ali_config" "./" "minigraph.xml" "config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/POD10_setup/config_gen/output/" (23247 24327 195042 63000) "p1_ali_config" "p1_config_db.json" "a21_ali_config" "a11_config_db.json" "p2_ali_config" "a12_ali_config" "a11_ali_config" "p4_config_db.json" "p3_ali_config" "a22_ali_config" "a12_config_db.json" "p4_ali_config" "../" "./" "p3_config_db.json" "p2_config_db.json" "a21_config_db.json" "a22_config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/config_gen/templates/" (23117 42278 869122 227000) "asw_ali_config.j2" "psw_ali_config.j2" "../" "./" "asw_config_db.json.j2" "psw_config_db.json.j2")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/config_gen/" (23108 40874 204816 674000) "settings.py" "config_gen.py" "templates/" "../" "./" "settings.pyc" "output/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/p1/" (23118 56076 458518 625000) "port_config.ini" "port_config.ini.rsfec" "../" "port_config.ini.nonefec" "ali_config" "./" "minigraph.xml" "config_db.json")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/AVL_setup/" (23106 40 822467 813000) "p2/" "a41/" "a21/" "a32/" "p4/" "config_gen_bak/" "a31/" "a42/" "../" "p1/" "./" "test/" "p3/" "a11/" "config_gen/" "config_gen_bak_bak/" "a22/" "a12/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/" (23170 49020 711927 272000) "config_db.json.gongjian" "syslog_65_set_fec_crash" "port_config_30048_gongjian.ini" "ansible_config/" "syslog3/" "minigraph_30048.xml" "config_db_bf65123_gongjian.json" "bf_driver/" "orchagent_terminate_caused_by_syncd_call_sai_create_neighbor_entry_fail/" "config_db_30048.json" "syslog_syncd_crash" "port_config_30040.ini" "mytestbed/" "ali_config.dapeng" "minigraph_30048_gongjian.xml" "minigraph.xml.dapeng" "bf_driver.tar.gz" "dhcp_relay_test/" "integrate_sde61015/" "gongjian_config/" "input_output_egress_systam_acl_test/" "../" "tmpdir/" "portchannel_fallback/" "./" "online_setup_back/" "L3_forwarding_drop_miss_flood_error/" "syslog2/" "config_db.json.dapeng" "neigh-derived_bgp-learnt_route/" "port_config_30048.ini" "liquid_cooling_lag_issue/" "interface_slow_up/" "online_setup/" "bf_driver.tar" "gongjian_ingrasys_port/" "syslog_syncd_crash_sai_mac_notify_cb/" "config_db_30048_gongjian.json" "gongjian_syncd_crash_20180207/" "syslog/" "acl_priority_issue/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/config_gen/templates/" (23169 12983 786289 123000) "asw_ali_config.j2" "psw_ali_config.j2" "asw_25Gspecial_ali_config.j2" "../" "asw_25Gspecial_config_db.json.j2" "./" "asw_config_db.json.j2" "asw_ali_config_20180206.j2" "asw_25Gofficial_config_db.json.j2" "psw_config_db.json.j2" "asw_config_db_20180206.json.j2" "asw_25Gofficial_ali_config.j2")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/config_gen/" (23162 51637 79407 614000) "settings.py" "config_gen.py" "templates/" "settings_8uplinks.py" "../" "./" "#settings.py#" "settings.pyc" "output/" "settings.py.backup")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/liquid_cooling/" (23161 49634 611639 328000) "a12_old/" "a11_old/" "a12_syslog" "../" "./" "a11/" "config_gen/" "a12/")
+
+ ("/home/dapeng/sonic/sonic_images-config_files/barefoot_51_test/online_setup/" (23247 5455 411739 16000) "sonic-barefoot-ANOS11-60162f6-bf_accton_ingrasys-61022_accton-20171225.bin" "sonic-barefoot-ANOS11-60162f6-bf_accton_ingrasys-61022_ingrasys-20171225.bin" "sonic-barefoot-ANOS11-cd6dbac-bf_accton_ingrasys-61022_ingrasys-20171211.bin" "syncd-dbg_1.0.0_amd64_60162f6_accton_20171226.deb" "POD10_setup/" "AVL_setup/" "script/" "syncd-dbg_1.0.0_amd64-ANOS11-515a48-20180104.deb" "sonic-barefoot-ANOS11-cd6dbac-bf_accton_ingrasys-61022_accton-20171211.bin" "sonic-barefoot-ANOS11-60162f6-bf_accton_ingrasys-61022_accton-20171226.bin" "gdb_deb.tar" "../" "./" "liquid_cooling/" "sonic-barefoot-ANOS11-515a48-61022_ingrasys-20180104.bin" "sonic-barefoot-ANOS11-daily20180206-ingrasys.bin" "syncd-dbg_1.0.0_amd64_60162f6_ingrasys_20171225.deb" "tofino_spi_pcie_gen2_rev02.bin" "bfnsdk_amd64_SDE61022_72512da_ingrasys.deb" "bfnsdk_amd64_SDE61022_02b49c1_ingrasys.deb" "issues/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/gen-py/switch_api/" (23201 19286 902490 80000) "switch_api_rpc-remote" "__init__.py" "ttypes.py" "../" "./" "switch_api_rpc.py" "switch_api_headers.py" "constants.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/gen-py/" (23201 19284 409445 682000) "switch_api/" "__init__.py" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/switchapi/" (23201 19376 44077 585000) "gen-py/" "Makefile" "../" "bfshell_plugin_switchapi.la" "switchapi.ts" "libswitchapi.la" "./" ".libs/" "libswitchapitest.la" "tests/" "src/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/switch/" (23201 18138 382115 681000) "switchsai/" "libtool" "targets/" "Makefile" "switchapi/" "stamp-h1" "tofino/" "doc/" "../" "config.status" "./" "p4-build/" "config.h" "config.log")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/build/" (23201 19706 9953 879000) "bf-platforms/" "switch/" "ptf-modules/" "bf-utils/" "p4-examples/" "../" "bf-drivers/" "./" "bf-diags/" "bf-syslibs/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/dtel/api-tests/int-api-tests/" (23242 9999 690564 360000) "switch_int_l45_transit_stless_ep_stful_sonic.py" "switch_int_l45_transit_digest.py" "switch_int_l45_transit.py" "switch_int_l45_multimirror.py" "switch_int_l45_ep_stless.py" "switch_int_l45_transit_source_sink_sonic_config_INTpktgen.py" "switch_int_l45_ep_stful.py" "switch_int_l45_transit_source_sink_sonic_config_ReportReceiver.py" "../" "switch_int_l45_ep.py" "./" "switch_int_l45_transit_source_sink_sonic_config.py" "switch_int_l45_transit_source_sink_sonic_config_EU6.py" "switch_int_l45_common.py" "switch_int_l45_transit_stless.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/telemetry/api-tests/" (23130 59191 0 0) "int-api-tests/" "../" "./" "queue-api-tests/" "postcard-api-tests/" "mod-api-tests/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/telemetry/" (23191 27314 289534 261000) "api-tests/" "telemetry_utils.py" "sonic-tests/" "telemetry_sai_utils.py" "sai-poc-config/" "sai-tests/" "../" "./" "sai-integration-tests/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/ptf-tests/" (23191 29171 644781 95000) "fast_failover/" "wred/" "egress-acl/" "cscope.out" "telemetry/" "qos/" "eval/" "ila/" "segment_routing/" "cscope.files" "../" "bfd/" "./" "perf/" "wcmp/" "sflow/" "base/" "nat/" "qinq/" "resilient_hashing/" "multi_device_switch/" "flowlet/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/ptf-modules/" (23133 53972 202134 498000) "autogen.sh" "configure.ac" "ptf/" "Makefile.am" "README" "missing" "Makefile.in" "configure" "RELEASE" "../" "py-compile" "autom4te.cache/" "./" "ptf-utils/" "config.h.in" "aclocal.m4" "install-sh")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/p4src/includes/" (23235 38773 479399 21000) "headers.p4" "p4_pktgen.h" "cpu_reason_codes.h" "tofino.p4" "p4_table_sizes.h" "p4features.h" "defines.p4" "parser.p4" "../" "dtel_parser.p4" "./" "drop_reason_codes.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/p4src/" (23237 29795 860749 305000) "wred.p4" "hashes.p4" "pktgen.p4" "ipv4.p4" "README.md" "openflow.p4" "dtel.p4" "ipv6.p4" "cscope.out" "multicast.p4" "acl.p4" "openflow_mapping/" "rewrite.p4" "failover.p4" "nat.p4" "fabric.p4" "dtel_postcard.p4" "p4_files.am" "mirror.p4" ".clang-format" "egress_filter.p4" "l3.p4" "cscope.files" "meter.p4" "bfd.p4" "../" "switch_config.p4" "flowlet_bmv2.p4" "./" "nexthop.p4" "switch.p4" "dtel_int.p4" "sr.p4" "includes/" "port.p4" "qos.p4" "sflow.p4" "tunnel.p4" "dtel_int_over_l4.p4" "l2.p4" "flowlet.p4" "security.p4" "ila.p4")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/bf_switchd/" (23191 32673 0 0) "switchd_ucli.c" "bf_switchd_log.c" "bf_model_pltfm_porting.h" "bf_switchd.h" "bf_switchd_i2c.h" "Makefile.am" "switch_config.c" "bf_switchd.c" "Makefile.in" "bf_switchd_i2c.c" "../" "bf_model_pltfm_porting.c" "bf_switchd_log.h" "./" "bf_switchd_main.c" "switch_config.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/src/" (23191 32674 0 0) "pdfixed/" "pipe_mgr/" "ctx_json/" "pkt_mgr/" "pi/" "dvm/" "avago/" "bf_pal/" "Makefile.am" "diag/" "knet_mgr/" "Makefile.in" "comira/" "lld/" "traffic_mgr/" "bf_pm/" "../" "./" "dru_sim/" "mc_mgr/" "usd/" "port_mgr/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/switchapi/xml/" (23191 32850 0 0) "../" "switchapi.xml" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/common/" (23191 32850 0 0) "sai_utils.py" "api_adapter.py" "__init__.py" "utils.py" "../" "./" "pd_utils.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofino/plcmt_pd_rpc/" (23133 54313 851263 699000) "plcmt-remote" "__init__.py" "ttypes.py" "ttypes.pyc" "ttypes.pyo" "plcmt.py" "plcmt.pyo" "../" "constants.pyc" "./" "plcmt.pyc" "__init__.pyo" "constants.pyo" "__init__.pyc" "constants.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofino/" (23133 54314 371273 28000) "sd_pd_rpc/" "res_pd_rpc/" "tm_api_rpc/" "mc_pd_rpc/" "port_mgr_pd_rpc/" "conn_mgr_pd_rpc/" "../" "./" "devport_mgr_pd_rpc/" "plcmt_pd_rpc/" "mirror_pd_rpc/" "knet_mgr_pd_rpc/" "pkt_pd_rpc/" "pal_rpc/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofinopd/switch/p4_pd_rpc/" (23133 55543 598255 352000) "dc.py" "dc.pyc" "dc.pyo" "__init__.py" "ttypes.py" "ttypes.pyc" "ttypes.pyo" "../" "constants.pyc" "./" "__init__.pyo" "constants.pyo" "__init__.pyc" "constants.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofinopd/switch/" (23133 55533 713078 778000) "__init__.py" "../" "./" "__init__.pyo" "__init__.pyc" "p4_pd_rpc/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/tofinopd/" (23133 55828 720331 561000) "switch/" "diag/" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/site-packages/" (23133 55852 360751 133000) "picoc/" "switchsai_thrift/" "ptf/" "tofino/" "p4testutils/" "../" "bfpycparser/" "./" "bfpycparser-2.17-py2.7.egg-info/" "switchapi_thrift/" "pltfm_pm_rpc/" "pltfm_mgr_rpc/" "diag_rpc/" "tofinopd/" "tofino_pd_api/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/python2.7/" (23133 54085 249162 567000) "../" "./" "site-packages/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/tofinopd/switch/" (23133 55533 618077 81000) "libpd.a" "libpdcli.so" "libpdthrift.so" "libpdthrift.a" "libpd.so" "libpdthrift.so.0.0.0" "libpd.so.0" "libpd.la" "libpdcli.a" "libpdcli.so.0" "libpd.so.0.0.0" "../" "./" "libpdcli.so.0.0.0" "libpdthrift.so.0" "libpdcli.la" "libpdthrift.la")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/tofinopd/" (23133 55828 866334 153000) "switch/" "diag/" "../" "./")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/lib/" (23133 55853 164765 403000) "libavago.a" "libcint.a" "bfshell_plugin_pipemgr.so.0.0.0" "bfshell_plugin_cint.so" "libpltfm_nos_driver.la" "bfshell_plugin_clish.la" "cint_binding_bfsyslibs.a" "libcrafter.so.0" "libswitchapitest.a" "libtofinopdfixed_thrift.so.0.0.0" "bfshell_plugin_pipemgr.a" "libffi.la" "libffi.a" "libcrafter.so" "cint_binding_bfutils.so" "bfshell_plugin_clish.so" "cint_binding_bfutils.so.0.0.0" "libpltfm_mgr.so" "libpltfm_driver.a" "bfshell_plugin_switchapi.so.0" "libplatform_thrift.a" "libbfutils.so.0.0.0" "cint_binding_bfdrivers.a" "libcrafter.so.0.0.2" "bfshell_plugin_cint.so.0" "libdru_sim.so.0.0.0" "libdiag_thrift.so.0" "libtofinopdfixed_thrift.so.0" "libdru_sim.la" "cint_binding_bfutils.so.0" "python2.7/" "libswitchapitest.so.0.0.0" "libdriver.so.0.0.0" "libdriver.la" "libbfdiags.so.0.0.0" "libtofinopdfixed_thrift.a" "bfshell_plugin_pipemgr.so" "bfshell_plugin_cint.la" "libswitchapi.so.0.0.0" "libavago.so.0" "libplatform_thrift.so.0" "libbfutils.so.0" "libbfsys.a" "libswitchapi.a" "bfshell_plugin_pipemgr.so.0" "libpltfm_driver.so.0" "libavago.so.0.0.0" "libbfutils.so" "libcint.so.0.0.0" "cint_binding_bfsyslibs.la" "libswitchsai.so.0" "libswitchsai.la" "libcrafter.la" "libdriver.so.0" "libdiag_thrift.so" "libbf_switchd_lib.la" "libpltfm_nos_driver.a" "libtcl_server.la" "bfshell_plugin_switchapi.so.0.0.0" "libdriver.so" "libpltfm_nos_driver.so.0.0.0" "libplatform_thrift.so" "libbfsys.so" "libbf_switchd_lib.so.0" "libpltfm_mgr.a" "../" "libpltfm_mgr.so.0.0.0" "libplatform_thrift.la" "libdiag_thrift.a" "libavago.la" "bfshell_plugin_switchapi.la" "libffi.so.7" "cint_binding_bfutils.a" "libpltfm_nos_driver.so.0" "libbfdiags.a" "libswitchapi.la" "bfshell_plugin_cint.so.0.0.0" "./" "libcint.la" "libswitchsai.so.0.0.0" "libbf_switchd_lib.so.0.0.0" "libtofinopdfixed_thrift.la" "libpltfm_nos_driver.so" "libtcl_server.so" "cint_binding_bfutils.la" "libbfdiags.so.0" "libcint.so.0" "libbfsys.so.0" "cint_binding_bfdrivers.la" "libdru_sim.so" "bfshell_plugin_switchapi.a" "libpltfm_driver.la" "cint_binding_bfdrivers.so" "libffi.so" "libffi.so.7.1.0" "libbfsys.so.0.0.0" "pkgconfig/" "libbfdiags.la" "libbf_switchd_lib.so" "modules/" "libbfdiags.so" "libavago.so" "libbfsys.la" "libbf_switchd_lib.a" "libbfutils.la" "libdru_sim.so.0" "libdiag_thrift.la" "libtcl_server.so.0" "libdru_sim.a" "tofinopd/" "libswitchapitest.la" "libpltfm_driver.so.0.0.0" "cint_binding_bfsyslibs.so.0" "libswitchsai.a" "cint_binding_bfsyslibs.so.0.0.0" "bfshell_plugin_switchapi.so" "cint_binding_bfsyslibs.so" "libswitchapitest.so" "libcint.so" "libdriver.a" "libpltfm_mgr.la" "bfshell_plugin_clish.a" "bfshell_plugin_pipemgr.la" "libswitchsai.so" "libtcl_server.so.0.0.0" "bfshell_plugin_cint.a" "libswitchapi.so" "libtcl_server.a" "libdiag_thrift.so.0.0.0" "libswitchapi.so.0" "libtofinopdfixed_thrift.so" "libbfutils.a" "cint_binding_bfdrivers.so.0" "libswitchapitest.so.0" "libpltfm_driver.so" "libplatform_thrift.so.0.0.0" "libpltfm_mgr.so.0" "cint_binding_bfdrivers.so.0.0.0")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/install/" (23133 54009 604805 503000) "include/" "share/" "bin/" "../" "./" "lib/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/api-tests/" (23191 32850 0 0) "switch_hostif.py" "switch_multi_tunnel.py" "switch_tunnel.py" "switch_tests.py" "switch_mcast.py" "api_base_tests.py" "api_utils.py" "../" "switch_acl.py" "./" "switch_get.py" "fast_reconfig_tests.py" "switch_mpls.py")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/switch/ptf-tests/base/" (23191 32870 0 0) "api-tests/" "system-tests/" "pd-tests/" "common/" "ports.json" "feature-tests/" "mpls-udp-tests/" "openflow-tests/" "../" "./" "meter-api-tests/" "triggers/" "emulator_test/" "sai-ocp-tests/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/pkgsrc/bf-drivers/" (23201 17725 374779 555000) "libavago.i686.a" "include/" "autogen.sh" "configure.ac" "cint/" "libavago.i686.so" "third-party/" "config.sub" "depcomp" "m4/" "pdfixed_thrift/" "Makefile.am" "README" "libavago.x86_64.la" "missing" "Makefile.in" "config.guess" "kdrv/" "libavago.x86_64.so" "configure" "doc/" "RELEASE" "libavago.i686.la" "../" "py-compile" "autom4te.cache/" "./" "pd_api_gen/" "config.h.in" "aclocal.m4" "bf_switchd/" "ltmain.sh" "install-sh" "compile" "src/" "libavago.x86_64.a")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/bf-drivers/pdfixed_thrift/" (23130 59098 0 0) "devport_mgr_pd_rpc_server.ipp" "bfn_pd_rpc_server.cpp" "thrift/" "port_mgr_pd_rpc_server.ipp" "plcmt_pd_rpc_server.ipp" "Makefile.am" "sd_pd_rpc_server.ipp" "pal_rpc_server.ipp" "tm_api_rpc_server.ipp" "Makefile.in" "conn_mgr_pd_rpc_server.ipp" "../" "knet_mgr_pd_rpc_server.ipp" "./" "pkt_pd_rpc_server.ipp" "mc_pd_rpc_server.ipp" "mirror_pd_rpc_server.ipp" "pdfixed.doxy")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/bf-drivers/bf_switchd/" (23130 59098 0 0) "switchd_ucli.c" "bf_switchd_log.c" "bf_model_pltfm_porting.h" "bf_switchd.h" "bf_switchd_i2c.h" "Makefile.am" "switch_config.c" "bf_switchd.c" "Makefile.in" "bf_switchd_i2c.c" "../" "bf_model_pltfm_porting.c" "bf_switchd_log.h" "./" "bf_switchd_main.c" "switch_config.h")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/bf-drivers/" (23133 53967 782055 201000) "libavago.i686.a" "include/" "autogen.sh" "configure.ac" "cint/" "libavago.i686.so" "third-party/" "config.sub" "depcomp" "m4/" "pdfixed_thrift/" "Makefile.am" "README" "libavago.x86_64.la" "missing" "Makefile.in" "config.guess" "kdrv/" "libavago.x86_64.so" "configure" "doc/" "RELEASE" "libavago.i686.la" "../" "py-compile" "autom4te.cache/" "./" "pd_api_gen/" "config.h.in" "aclocal.m4" "bf_switchd/" "ltmain.sh" "install-sh" "compile" "src/" "libavago.x86_64.a")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/p4-build/" (23130 59213 0 0) "tofinobmpd/" "autogen.sh" "configure.ac" "README.md" "pipd/" "pi/" "test-driver" "config.sub" "depcomp" "m4/" "bmv2-tofino/" "Makefile.am" "README" "missing" "Makefile.in" "tofino/" "config.guess" "tools/" "configure" "bmv2/" "../" "py-compile" "CI/" "autom4te.cache/" "./" "config.h.in" "aclocal.m4" ".travis.yml" "tofinopd/" "ltmain.sh" "bmpd/" "install-sh" "compile")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/switch/" (23133 53969 870092 661000) "switchsai/" "autogen.sh" "configure.ac" "README.md" "targets/" "third-party/" "config.sub" "depcomp" "p4src/" "m4/" "bmv2-tofino/" "Makefile.am" "switchapi/" "README" "missing" "Makefile.in" "tofino/" "config.guess" ".clang-format" "install_switch_deps.sh" "configure" "doc/" "bmv2/" "RELEASE" "../" "py-compile" "autom4te.cache/" "./" "config.h.in" "aclocal.m4" "p4-build/" ".travis.yml" "ltmain.sh" "ptf-tests/" "install-sh" "compile")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/pkgsrc/" (23133 62350 382854 233000) "bf-platforms/" "p4c-bmv2/" "p4-compilers/" "switch/" "cscope.out" "ptf-modules/" "bf-utils/" "p4-examples/" "cscope.files" "bmv2/" "../" "bf-drivers/" "./" "tofino-model/" "bf-diags/" "p4-build/" "bf-syslibs/" "tofinobm/" "p4-hlir/")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.2.75/install/lib/python2.7/site-packages/p4testutils/" (23201 18116 881734 193000) "bf_switchd_dev_status.py" "erspan3.py" "pd_base_tests.py" "pd_base_tests.pyo" "pd_base_tests.pyc" "erspan3.pyo" "port_mapping.pyo" "bfd_utils.pyo" "ptf_interfaces.py" "port_mapping.py" "ptf_interfaces.pyc" "bf_switchd_dev_status.pyc" "bfd_utils.py" "../" "ptf_port.pyo" "./" "ptf_port.py" "ptf_interfaces.pyo" "run_ptf_tests.pyo" "ptf_port.pyc" "port_mapping.pyc" "bfd_utils.pyc" "erspan3.pyc" "run_ptf_tests.py" "run_ptf_tests.pyc" "bf_switchd_dev_status.pyo")
+
+ ("/home/dapeng/bf/bf_jessie/bf-sde-7.0.0.10/" (23164 22144 539897 899000) "pkgsrc/" "run_tofino_model.sh" "run_p4_tests.sh" "run_bmv2_drivers.sh" "install/" "build/" "install_thrift_deps.sh" "run_bmv2.sh" "logs/" "install_ptf_deps.sh" "README" "extract_all.sh" "run_switchd.sh" "../" "packages/" "install_bin_pkgs.sh" "install_min_deps.sh" "./" "switch_int_l45_sonic_config.py" "bf-sde-7.0.0.10.manifest")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
