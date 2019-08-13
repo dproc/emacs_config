@@ -156,6 +156,9 @@
 ;;linux emacs better to set org-file-apps to narrow the scope check C-h v
 (setq browse-url-browser-function 'browse-url-default-macosx-browser)
 
+(define-key org-mode-map (kbd "M-B M-B") 'org-beginning-of-item-list)
+(define-key org-mode-map (kbd "M-B B") 'org-beginning-of-item)
+
 ;;open pdf at specific page with MAC preview on MAC
 ;;linux emacs use evince instead check C-h v
 (add-hook 'org-mode-hook
@@ -279,5 +282,9 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
     "Window '%s' is normal")
  (current-buffer)))
 ;;;;;;;;;;;;;Toggle window dedication end;;;;;;
+
+;;;;;;;;;;;;;insert quote pair around selected;;;;;;
+(global-set-key (kbd "M-\"") 'insert-pair)
+;;;;;;;;;;;;;insert quote pair around selected end;;;;;;
 
 (provide 'init-local)
