@@ -287,4 +287,9 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 (global-set-key (kbd "M-\"") 'insert-pair)
 ;;;;;;;;;;;;;insert quote pair around selected end;;;;;;
 
+;;;;;;;;;;;;p4;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(autoload 'p4_16-mode' "p4_16-mode.el" "P4 Syntax." t)
+(add-to-list 'auto-mode-alist '("\\.p4\\'" . p4_16-mode))
+;;;;;;;;;;;;p4 end;;;;;;;;;;;;;;;;;;;;;;;
+
 (provide 'init-local)
