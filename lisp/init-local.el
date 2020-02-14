@@ -429,4 +429,9 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 
 ;;;;;;;;;;;go-mode lsp gopl exec-path-from-shell;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;ztree;;;;;;;;;;;;
+(require 'ztree)
+;;;;;;;;;;;ztree end;;;;;;;;
+
+
 (provide 'init-local)
