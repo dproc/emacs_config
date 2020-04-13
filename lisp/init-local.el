@@ -433,5 +433,50 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 (require 'ztree)
 ;;;;;;;;;;;ztree end;;;;;;;;
 
+;;;;;;;;;;;copy without leading indentation;;;;;;;;;;;;
+(defun my-copy-region-unindented (pad beginning end)
+  "Copy the region, un-indented by the length of its minimum indent.
+
+If numeric prefix argument PAD is supplied, indent the resulting
+text by that amount."
+  (interactive "P\nr")
+  (let ((buf (current-buffer))
+        (itm indent-tabs-mode)
+        (tw tab-width)
+        (st (syntax-table))
+        (indent nil))
+    (with-temp-buffer
+      (setq indent-tabs-mode itm
+            tab-width tw)
+      (set-syntax-table st)
+      (insert-buffer-substring buf beginning end)
+      ;; Establish the minimum level of indentation.
+      (goto-char (point-min))
+      (while (and (re-search-forward "^[[:space:]\n]*" nil :noerror)
+                  (not (eobp)))
+        (let ((length (current-column)))
+          (when (or (not indent) (< length indent))
+            (setq indent length)))
+        (forward-line 1))
+      (if (not indent)
+          (error "Region is entirely whitespace")
+        ;; Un-indent the buffer contents by the length of the minimum
+        ;; indent level, and copy to the kill ring.
+        (when pad
+          (setq indent (- indent (prefix-numeric-value pad))))
+        (indent-rigidly (point-min) (point-max) (- indent))
+        (copy-region-as-kill (point-min) (point-max))))))
+
+(defun my-copy-region-as-kill (pad beginning end)
+  "Like `copy-region-as-kill' or, with prefix arg, `my-copy-region-unindented'."
+  (interactive "P\nr")
+  (if pad
+      (my-copy-region-unindented (if (consp pad) nil pad)
+                                 beginning end)
+    (kill-ring-save beginning end)))
+
+(global-set-key (kbd "M-w") 'my-copy-region-as-kill)
+;;;;;;;;;;;copy without leading indentation end;;;;;;;;;;;;
+
 
 (provide 'init-local)
