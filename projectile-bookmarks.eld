@@ -1,0 +1,1 @@
+("~/Downloads/test/" "~/Documents/Linux/BOOK/Tool_Box/source_management_system/GIT/GIT_projects/emacs_config/" "~/Documents/Linux/BOOK/C_system/golang/gows/src/github.com/dproc/smartflow/")

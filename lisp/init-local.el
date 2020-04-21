@@ -478,5 +478,66 @@ text by that amount."
 (global-set-key (kbd "M-w") 'my-copy-region-as-kill)
 ;;;;;;;;;;;copy without leading indentation end;;;;;;;;;;;;
 
+;;;;;;;;;;;python development env;;;;;;;;;;;;;;;;;;;;;;;;
+;; Installs packages
+;;
+;; myPackages contains a list of package names
+(defvar pyPackages
+  '(
+    )
+  )
+
+;; Scans the list in myPackages
+;; If the package listed is not already installed, install it
+(mapc #'(lambda (package)
+          (unless (package-installed-p package)
+            (package-install package)))
+      pyPackages)
+
+;; (defun set-my-elpy-map ()
+;;     (defvar my-elpy-map (make-sparse-keymap))
+;;     (define-key my-elpy-map "r" 'xref-find-references)
+;;     (define-key my-elpy-map "o" 'elpy-occur-definitions)
+;;     (define-key elpy-mode-map "C-c C-r" nil)
+;;     (define-key elpy-mode-map "C-c C-r" my-elpy-map))
+
+;; (add-hook 'elpy-mode-hook 'set-my-elpy-map)
+
+(use-package elpy
+  :ensure t
+  :defer t
+  :bind (:map elpy-mode-map
+        ("C-c C-d" . xref-find-definitions)
+        ("C-x 4 C-c C-d" . xref-find-definition-other-window)
+        ("C-c C-u" . xref-pop-marker-stack)
+        ("C-c C-l" . elpy-occur-definitions)
+        ("C-c C-o" . nil)
+        ("C-c C-o r" . xref-find-references))
+  :init
+  (advice-add 'python-mode :before 'elpy-enable)
+  :config
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules)))
+
+(use-package flycheck
+  :ensure t
+  :defer t
+  :hook (elpy-mode . flycheck-mode))
+
+(use-package py-autopep8
+  :ensure t
+  :defer t
+  :hook (elpy-mode . py-autopep8-enable-on-save))
+
+(setq python-shell-interpreter "python3"
+      python-shell-interpreter-args "-i")
+
+(use-package projectile
+  :ensure t
+  :bind-keymap
+  ("C-c p" . projectile-command-map))
+
+;;;;;;;;;;;python development env end;;;;;;;;;;;;;;;;;;;;
+
+
 
 (provide 'init-local)
