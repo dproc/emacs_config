@@ -512,11 +512,16 @@ text by that amount."
         ("C-c C-u" . xref-pop-marker-stack)
         ("C-c C-l" . elpy-occur-definitions)
         ("C-c C-o" . nil)
-        ("C-c C-o r" . xref-find-references))
+        ("C-c C-o r" . xref-find-references)
+        ("C-M-<up>" . elpy-nav-backward-block)
+        ("C-M-<down>" . elpy-nav-forward-block))
   :init
   (advice-add 'python-mode :before 'elpy-enable)
   :config
-  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules)))
+  (setq elpy-rpc-python-command "python3")
+  (setq elpy-rpc-virtualenv-path "~/.emacs.d/elpy/rpc-venv")
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (hs-minor-mode))
 
 (use-package flycheck
   :ensure t

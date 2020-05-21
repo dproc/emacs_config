@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- pdb
- elpy-nav-forward-block
- comment-region
- uncomment-region
- common-lisp-mode
- projectile-mode
- xref-find-references
+ elpy-config
+ elpy-rpc-restart
+ elpy-pdb-debug-buffer
+ elpy-folding-hide-leafs
+ outline-hide-leaves
+ hide-leaves
+ hs-minor-mode
 )
 
 ;; ----- smex-data -----
 (
  (list-command-history . 1)
  (command-history . 2)
- (rgrep . 56)
+ (rgrep . 57)
  (shell . 7)
  (artist-mode . 206)
  (image-mode . 5)
@@ -37,11 +37,11 @@
  (org-agenda-to-appt . 1)
  (server-start . 5)
  (server-mode . 3)
- (scratch . 156)
+ (scratch . 158)
  (isearch-mode-help . 1)
  (kbd-macro-query . 7)
  (new-frame . 1)
- (text-mode . 19)
+ (text-mode . 21)
  (visual-line-mode . 4)
  (count-lines-page . 2)
  (c-mode . 1)
@@ -57,7 +57,7 @@
  (replace-regexp . 90)
  (fundamental-mode . 1)
  (org-mode-restart . 1)
- (list-packages . 27)
+ (list-packages . 28)
  (find-file . 2)
  (find-file-literally . 1)
  (customize-face . 1)
@@ -70,18 +70,18 @@
  (delete-blank-lines . 11)
  (shell-mode . 2)
  (term . 3)
- (delete-matching-lines . 5)
+ (delete-matching-lines . 12)
  (grep . 4)
  (align . 5)
  (align-regexp . 8)
  (just-one-space . 2)
- (comment-region . 18)
+ (comment-region . 20)
  (revert-buffer-with-coding-system . 52)
  (list-coding-systems . 2)
- (describe-char . 2)
+ (describe-char . 3)
  (org-store-link . 1)
  (yari . 2)
- (ediff-buffers . 16)
+ (ediff-buffers . 19)
  (highlight-symbol-mode . 6)
  (highlight-symbol-at-point . 10)
  (highlight-symbol-next . 2)
@@ -100,9 +100,9 @@
  (list-matching-lines . 1)
  (sh-mode . 3)
  (uncomment-region . 5)
- (rename-buffer . 12)
+ (rename-buffer . 14)
  (shell-command-on-region . 1)
- (sort-lines . 2)
+ (sort-lines . 5)
  (org-open-link-from-string . 1)
  (list-character-sets . 1)
  (hexl-mode . 8)
@@ -153,7 +153,7 @@
  (pyvenv-menu . 2)
  (pyvenv-activate . 3)
  (run-python . 1)
- (elpy-config . 3)
+ (elpy-config . 10)
  (elpy-goto-definition . 2)
  (elpy-enable . 1)
  (projectile-mode . 3)
@@ -163,5 +163,16 @@
  (elpy-goto-definition-other-window . 1)
  (toggle-window-dedicated . 1)
  (xref-find-references . 1)
- (elpy-nav-forward-block . 4)
+ (elpy-nav-forward-block . 6)
+ (elpy-occur-definitions . 1)
+ (ediff . 2)
+ (describe-buffer-case-table . 1)
+ (elpy-nav-backward-indent . 2)
+ (elpy-nav-backward-block . 2)
+ (hs-minor-mode . 3)
+ (elpy-folding-hide-leafs . 3)
+ (hide-leaves . 1)
+ (outline-hide-leaves . 1)
+ (elpy-pdb-debug-buffer . 3)
+ (elpy-rpc-restart . 4)
 )
