@@ -69,20 +69,33 @@ ARCHIVE is the string name of the package archive.")
 ;; Standard package repositories
 ;;------------------------------------------------------------------------------
 
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+;;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 ;; We include the org repository for completeness, but don't normally
 ;; use it.
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
+;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
 
 
 ;;------------------------------------------------------------------------------
 ;; Also use Melpa for some packages built straight from VC
 ;;------------------------------------------------------------------------------
 
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
-(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/"))
+;;(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/"))
 ;;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+
+;;(setq package-archives '(
+                         ;; uncomment below line if you need use GNU ELPA
+                         ;; ("gnu" . "https://elpa.gnu.org/packages/") ("localelpa" . "~/.emacs.d/localelpa/") ;;
+                         ;; 163 repository:
+                         ;; ("melpa" . "https://mirrors.163.com/elpa/melpa/")
+                         ;; ("melpa-stable" . "https://mirrors.163.com/elpa/melpa-stable/")
+                         ;; tsinghua repository (more stable than 163, recommended) See https://mirror.tuna.tsinghua.edu.cn/help/elpa/ on usage:
+                         ;; ("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/") ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/") ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa-stable/") ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
+                         ;; official
+                         ;; ("melpa" . "https://melpa.org/packages/") ("melpa-stable" . "https://stable.melpa.org/packages/") )) 
+
+(setq package-archives '(("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/") ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/") ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa-stable/") ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 
 (defvar melpa-exclude-packages
   ;; I'm happy my packages included in melpa. But need time to switch to melpa finally
@@ -102,7 +115,9 @@ ARCHIVE is the string name of the package archive.")
 ;; Fire up package.el and ensure the following packages are installed.
 ;;------------------------------------------------------------------------------
 (setq package-enable-at-startup nil)
-(package-initialize)
+;;(package-initialize)
+(when (< emacs-major-version 27)
+  (package-initialize))
 
 (require-package 'all)
 (require-package 'xml-rpc)
