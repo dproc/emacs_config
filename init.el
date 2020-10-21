@@ -227,25 +227,29 @@
  '(godef-command "godef")
  '(godoc-and-godef-command "go doc")
  '(hippie-expand-try-functions-list
-   '(try-complete-file-name-partially try-complete-file-name try-expand-dabbrev try-expand-all-abbrevs try-expand-list try-expand-line try-expand-dabbrev-all-buffers try-expand-dabbrev-from-kill try-complete-lisp-symbol-partially try-complete-lisp-symbol))
+   (quote
+    (try-complete-file-name-partially try-complete-file-name try-expand-dabbrev try-expand-all-abbrevs try-expand-list try-expand-line try-expand-dabbrev-all-buffers try-expand-dabbrev-from-kill try-complete-lisp-symbol-partially try-complete-lisp-symbol)))
  '(ispell-highlight-p nil)
  '(ispell-lazy-highlight nil)
- '(org-cycle-include-plain-lists 'integrate)
+ '(lsp-go-gopls-server-args nil)
+ '(org-cycle-include-plain-lists (quote integrate))
  '(org-file-apps
-   '(("\\.pdf::\\([0-9]+\\)\\'" . "/Users/dapliu/.emacs.d/site-lisp/geared/open_pdf_at_page_with_Mac_preview.sh %s %1")
+   (quote
+    (("\\.pdf::\\([0-9]+\\)\\'" . "/Users/dapliu/.emacs.d/site-lisp/geared/open_pdf_at_page_with_Mac_preview.sh %s %1")
      (auto-mode . emacs)
      ("\\.mm\\'" . default)
      ("\\.x?html?\\'" . default)
-     ("\\.pdf\\'" . default)))
+     ("\\.pdf\\'" . default))))
  '(org-highlight-latex-and-related nil)
  '(package-enable-at-startup nil)
- '(package-load-list '(all))
+ '(package-load-list (quote (all)))
  '(package-selected-packages
-   '(protobuf-mode magit yasnippet-snippets dash-functional projectile py-autopep8 elpy go-autocomplete go-guru go-eldoc use-package go-mode lsp-ui lsp-mode flycheck magit-annex magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-imerge magit-lfs magit-p4 magit-rockstar magit-simple-keys magit-stgit magit-svn magit-tbdiff magit-topgit magit-tramp magithub git-commit zenburn-theme yari yaml-mode wxwidgets-help workgroups whole-line-or-region wgrep web-mode w3m unfill twittering-mode todochiku tidy textile-mode tagedit switch-window surround string-edit sr-speedbar smex smarty-mode smartparens slime-repl slime-fuzzy slamhound session scss-mode scratch sass-mode rvm robe rinari requirejs-mode regex-tool rainbow-mode rainbow-delimiters project-local-variables pretty-mode popwin pomodoro pointback php-mode paredit page-break-lines org2blog org-fstree mwe-log-commands multiple-cursors move-text mmm-mode mic-paren maxframe marmalade markdown-mode lua-mode lively less-css-mode legalese keyfreq json-mode js2-mode js-comint iy-go-to-char issue-tracker iedit idomenu ibuffer-vc htmlize hl-sexp hippie-expand-slime helm-ls-git helm-gtags helm-c-yasnippet haskell-mode gtags gnuplot gitignore-mode gitconfig-mode fuzzy fringe-helper flyspell-lazy flymake-shell flymake-sass flymake-ruby flymake-python-pyflakes flymake-php flymake-lua flymake-jslint flymake-haml flymake-cursor flymake-css flymake-coffee expand-region exec-path-from-shell evil-numbers evil-nerd-commenter evil etags-select erlang emms emmet-mode elnode elisp-slime-nav elein eldoc-eval dsvn dropdown-list dired-details dired+ diminish ctags csv-nav csv-mode csharp-mode crontab-mode cpputils-cmake company color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized coffee-mode cmake-mode cljsbuild-mode chess buffer-move browse-kill-ring bookmark+ bbdb auto-complete-clang auto-compile auctex anything all ace-jump-mode ac-slime ac-nrepl))
+   (quote
+    (flycheck which-key protobuf-mode magit yasnippet-snippets dash-functional projectile py-autopep8 elpy go-autocomplete go-guru go-eldoc use-package go-mode magit-annex magit-filenotify magit-find-file magit-gerrit magit-gh-pulls magit-gitflow magit-imerge magit-lfs magit-p4 magit-rockstar magit-simple-keys magit-stgit magit-svn magit-tbdiff magit-topgit magit-tramp magithub git-commit zenburn-theme yari yaml-mode wxwidgets-help workgroups whole-line-or-region wgrep web-mode w3m unfill twittering-mode todochiku tidy textile-mode tagedit switch-window surround string-edit sr-speedbar smex smarty-mode smartparens slime-repl slime-fuzzy slamhound session scss-mode scratch sass-mode rvm robe rinari requirejs-mode regex-tool rainbow-mode rainbow-delimiters project-local-variables pretty-mode popwin pomodoro pointback php-mode paredit page-break-lines org2blog org-fstree mwe-log-commands multiple-cursors move-text mmm-mode mic-paren maxframe marmalade markdown-mode lua-mode lively less-css-mode legalese keyfreq json-mode js2-mode js-comint iy-go-to-char issue-tracker iedit idomenu ibuffer-vc htmlize hl-sexp hippie-expand-slime helm-ls-git helm-gtags helm-c-yasnippet haskell-mode gtags gnuplot gitignore-mode gitconfig-mode fuzzy fringe-helper flyspell-lazy flymake-shell flymake-sass flymake-ruby flymake-python-pyflakes flymake-php flymake-lua flymake-jslint flymake-haml flymake-cursor flymake-css flymake-coffee expand-region exec-path-from-shell evil-numbers evil-nerd-commenter evil etags-select erlang emms emmet-mode elnode elisp-slime-nav elein eldoc-eval dsvn dropdown-list dired-details dired+ diminish ctags csv-nav csv-mode csharp-mode crontab-mode cpputils-cmake color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized coffee-mode cmake-mode cljsbuild-mode chess buffer-move browse-kill-ring bookmark+ bbdb auto-complete-clang auto-compile auctex anything all ace-jump-mode ac-slime ac-nrepl)))
  '(session-use-package t)
  '(smart-tab-using-hippie-expand t)
  '(term-buffer-maximum-size 8192)
- '(uniquify-buffer-name-style 'post-forward nil (uniquify)))
+ '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

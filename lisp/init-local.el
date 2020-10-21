@@ -320,6 +320,7 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
 ;; ;;;;;traditional go mode end;;;;;;;
 ;;;;;;;lsp-mode gopls and go-mode;;;;;;;;
 (when (memq window-system '(mac ns x))
+  (setq exec-path-from-shell-shell-name "/bin/bash")
   (exec-path-from-shell-initialize)
   (exec-path-from-shell-copy-env "GOPATH"))
 
@@ -506,6 +507,39 @@ text by that amount."
 
 ;;;;;;;;;;;python development env end;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;lsp-docker;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (require 'lsp-docker)
 
+;; (defvar lsp-docker-client-packages
+;;     '(lsp-go))
+
+;; (defvar lsp-docker-client-configs
+;;    (list
+;;    (list :server-id 'gopls :docker-server-id 'gopls-docker :server-command "gopls")))
+
+;; (require 'lsp-docker)
+;; (lsp-docker-init-clients
+;;   :path-mappings '(("/Users/admin" . "/projects") ("/Users/admin/goroot" . "/go"))
+;;   :client-packages lsp-docker-client-packages
+;;   :client-configs lsp-docker-client-configs)
+
+;; ;; (use-package which-key
+;; ;;     :ensure t
+;; ;;     :commands which-key-mode)
+
+;; ;; set prefix for lsp-command-keymap (few alternatives - "C-l", "C-c l")
+;; (setq lsp-keymap-prefix "s-l")
+
+;; (use-package lsp-mode
+;;     :hook (;; replace XXX-mode with concrete major-mode(e. g. python-mode)
+;;             (go-mode . lsp))
+;;     :commands lsp
+;;     :config)
+
+;; ;; optionally
+;; (use-package lsp-ui :commands lsp-ui-mode)
+
+
+;;;;;;;;;;;lsp-docker end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (provide 'init-local)

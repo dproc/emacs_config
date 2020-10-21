@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- godoc
- godoc-at-point
- lsp-describe-thing-at-point
- lsp
- xref-find-references
  flycheck-mode
- artist-mode
+ uncomment-region
+ comment-region
+ rgrep
+ xref-find-definitions
+ xref-find-references
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
  (list-command-history . 1)
  (command-history . 2)
- (rgrep . 69)
+ (rgrep . 85)
  (shell . 7)
  (artist-mode . 206)
  (image-mode . 5)
@@ -57,7 +57,7 @@
  (replace-regexp . 90)
  (fundamental-mode . 1)
  (org-mode-restart . 1)
- (list-packages . 31)
+ (list-packages . 48)
  (find-file . 2)
  (find-file-literally . 1)
  (customize-face . 1)
@@ -69,13 +69,13 @@
  (org-display-inline-images . 4)
  (delete-blank-lines . 11)
  (shell-mode . 2)
- (term . 3)
+ (term . 5)
  (delete-matching-lines . 12)
  (grep . 4)
  (align . 5)
  (align-regexp . 8)
  (just-one-space . 2)
- (comment-region . 24)
+ (comment-region . 30)
  (revert-buffer-with-coding-system . 52)
  (list-coding-systems . 2)
  (describe-char . 3)
@@ -91,7 +91,7 @@
  (package-delete . 9)
  (magit-status . 2)
  (repeat . 1)
- (emacs-version . 3)
+ (emacs-version . 4)
  (highlight-phrase . 5)
  (global-hl-line-mode . 10)
  (highlight-symbol-occur . 2)
@@ -99,7 +99,7 @@
  (occur-mode . 5)
  (list-matching-lines . 1)
  (sh-mode . 3)
- (uncomment-region . 7)
+ (uncomment-region . 11)
  (rename-buffer . 14)
  (shell-command-on-region . 1)
  (sort-lines . 5)
@@ -114,20 +114,20 @@
  (scan-buf-next-region . 1)
  (ascii-table . 1)
  (markdown-live-preview-mode . 2)
- (getenv . 20)
+ (getenv . 31)
  (package-list-packages . 9)
  (go-mode . 7)
  (godef-describe . 5)
- (lsp-describe-session . 2)
+ (lsp-describe-session . 13)
  (company-lsp . 10)
  (company-dabbrev . 1)
- (company-complete . 13)
+ (company-complete . 15)
  (company-mode . 7)
- (lsp . 9)
+ (lsp . 20)
  (gofmt . 43)
  (godef-jump . 5)
  (pop-tag-mark . 4)
- (godoc . 39)
+ (godoc . 40)
  (godoc-at-point . 17)
  (go-import-add . 1)
  (go-guru-callers . 2)
@@ -137,7 +137,7 @@
  (magit-blame . 7)
  (go-eldoc-setup . 6)
  (go-guru-set-scope . 20)
- (flycheck-mode . 37)
+ (flycheck-mode . 39)
  (lsp-workspace-folders-add . 1)
  (magit-blame-mode . 3)
  (imenu . 2)
@@ -162,7 +162,7 @@
  (elpy-doc . 1)
  (elpy-goto-definition-other-window . 1)
  (toggle-window-dedicated . 1)
- (xref-find-references . 2)
+ (xref-find-references . 8)
  (elpy-nav-forward-block . 6)
  (elpy-occur-definitions . 1)
  (ediff . 2)
@@ -175,10 +175,10 @@
  (outline-hide-leaves . 1)
  (elpy-pdb-debug-buffer . 3)
  (elpy-rpc-restart . 4)
- (list-processes . 2)
+ (list-processes . 7)
  (customize-option . 1)
- (lsp-find-definition . 11)
- (xref-find-definitions . 1)
+ (lsp-find-definition . 23)
+ (xref-find-definitions . 2)
  (eldoc-mode . 6)
  (package-autoremove . 1)
  (global-smart-tab-mode . 3)
@@ -191,4 +191,16 @@
  (lsp-ui-mode . 3)
  (lsp-ui-flycheck-list-mode . 3)
  (flycheck-verify-setup . 2)
+ (lsp-install-server . 1)
+ (lsp-shutdown-workspace . 4)
+ (lsp-rename . 1)
+ (lsp-workspace-show-log . 9)
+ (customize-group . 6)
+ (lsp-restart-workspace . 9)
+ (load-library . 2)
+ (global-flycheck-mode . 1)
+ (company-capf . 5)
+ (company-begin-backend . 1)
+ (helm-mode . 1)
+ (customize-variable . 2)
 )
