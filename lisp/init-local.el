@@ -495,8 +495,12 @@ text by that amount."
 
 (use-package py-autopep8
   :ensure t
-  :defer t
-  :hook (elpy-mode . py-autopep8-enable-on-save))
+  :defer t)
+
+;; (use-package py-autopep8
+;;   :ensure t
+;;   :defer t
+;;   :hook (elpy-mode . py-autopep8-enable-on-save))
 
 (setq python-shell-interpreter "python3"
       python-shell-interpreter-args "-i")
