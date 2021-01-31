@@ -547,4 +547,15 @@ text by that amount."
 
 ;;;;;;;;;;;lsp-docker end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;hideshow setting for xml;;;;;;;;;;;;;;;;;;;;;;
+(add-to-list 'hs-special-modes-alist
+             '(nxml-mode
+               "<!--\\|<[^/>]*[^/]>"
+               "-->\\|</[^/>]*[^/]>"
+               "<!--"
+               sgml-skip-tag-forward
+               nil))
+(add-hook 'nxml-mode-hook 'hs-minor-mode)
+;;;;;;;;;;;hideshow setting for xml end;;;;;;;;;;;;;;;;;;
+
 (provide 'init-local)
