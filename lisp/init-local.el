@@ -548,14 +548,70 @@ text by that amount."
 ;;;;;;;;;;;lsp-docker end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;hideshow setting for xml;;;;;;;;;;;;;;;;;;;;;;
-(add-to-list 'hs-special-modes-alist
-             '(nxml-mode
-               "<!--\\|<[^/>]*[^/]>"
-               "-->\\|</[^/>]*[^/]>"
-               "<!--"
-               sgml-skip-tag-forward
-               nil))
-(add-hook 'nxml-mode-hook 'hs-minor-mode)
+
+;;(add-hook 'nxml-mode-hook 'mynxml-mode-setting)
+(defun mynxml-mode-setting ()
+  (require 'hideshow)
+  (hs-minor-mode)
+  (require 'sgml-mode)
+  (add-to-list 'hs-special-modes-alist
+               '(nxml-mode
+                 "<!--\\|<[^/>]*[^/]>"
+                 "-->\\|</[^/>]*[^/]>"
+                 "<!--"
+                 sgml-skip-tag-forward
+                 nil)))
+(add-hook 'nxml-mode-hook 'mynxml-mode-setting)
+
 ;;;;;;;;;;;hideshow setting for xml end;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;yang-mode;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun my-yang-mode-setting ()
+  "Configuration for YANG Mode.  Add this to `yang-mode-hook'."
+  (if window-system
+      (progn
+        (c-set-style "BSD")
+        (setq indent-tabs-mode nil)
+        (setq c-basic-offset 2)
+        (setq font-lock-maximum-decoration t)
+        (font-lock-mode t)))
+  (outline-minor-mode)
+  (defconst sort-of-yang-identifier-regexp "[-a-zA-Z0-9_\\.:]*")
+  (setq outline-regexp
+        (concat "^ *" sort-of-yang-identifier-regexp " *"
+                sort-of-yang-identifier-regexp
+                " *{")))
+
+(use-package yang-mode
+  :ensure t
+  :defer t
+  :hook
+  (yang-mode . my-yang-mode-setting)
+  )
+
+(defun show-onelevel ()
+  "show entry and children in outline mode"
+  (interactive)
+  (show-entry)
+  (show-children))
+
+(defun my-outline-keybinding ()
+  "sets shortcut bindings for outline minor mode"
+  (interactive)
+  (local-set-key (kbd "C-,") 'hide-body)
+  (local-set-key (kbd "C-.") 'show-all)
+  (local-set-key (kbd "C-<up>") 'outline-previous-visible-heading)
+  (local-set-key (kbd "C-<down>") 'outline-next-visible-heading)
+  (local-set-key (kbd "C-<left>") 'hide-subtree)
+  (local-set-key (kbd "C-<right>") 'show-onelevel)
+  (local-set-key (kbd "M-<up>") 'outline-backward-same-level)
+  (local-set-key (kbd "M-<down>") 'outline-forward-same-level)
+  (local-set-key (kbd "M-<left>") 'hide-subtree)
+  (local-set-key (kbd "M-<right>") 'show-subtree))
+
+(add-hook
+ 'outline-minor-mode-hook
+ 'my-outline-keybinding)
+
+;;;;;;;;;;;yang-mode end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (provide 'init-local)
