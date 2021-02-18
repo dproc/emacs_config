@@ -332,6 +332,7 @@ If set/leave chinese-font-size to nil, it will follow english-font-size"
   (local-set-key (kbd "C-c C-d") 'xref-find-definitions)
   (local-set-key (kbd "C-c C-r") 'xref-find-references)
   (local-set-key (kbd "C-c C-u") 'xref-pop-marker-stack)
+  (hs-minor-mode)
   ;;(go-eldoc-setup)
   )
 
