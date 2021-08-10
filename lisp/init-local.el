@@ -486,8 +486,7 @@ text by that amount."
   :config
   (setq elpy-rpc-python-command "python3")
   (setq elpy-rpc-virtualenv-path "~/.emacs.d/elpy/rpc-venv")
-  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
-  (hs-minor-mode))
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules)))
 
 (use-package flycheck
   :ensure t
@@ -615,4 +614,10 @@ text by that amount."
  'my-outline-keybinding)
 
 ;;;;;;;;;;;yang-mode end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;re-builder;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 're-builder)
+(setq reb-re-syntax 'string)
+;;;;;;;;;;;re-builder end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (provide 'init-local)
