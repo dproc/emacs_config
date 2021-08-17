@@ -620,4 +620,9 @@ text by that amount."
 (setq reb-re-syntax 'string)
 ;;;;;;;;;;;re-builder end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;vterm;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(use-package vterm
+    :ensure t)
+;;;;;;;;;;;vterm end;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (provide 'init-local)
